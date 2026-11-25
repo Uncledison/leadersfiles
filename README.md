@@ -26,6 +26,7 @@ terms/index.html           이용약관
 assets/css/site.css        디자인 시스템 (다크 시네마틱)
 assets/js/site.js          타임라인, 라인업 필터, 공유, 구독 폼
 assets/img/                초상(WebP/JPG)과 공유 이미지
+functions/_middleware.js   /data/·/tools/·README 등 원본 경로를 404로 막는 Pages 미들웨어
 sitemap.xml, robots.txt
 ```
 
@@ -44,7 +45,7 @@ python3 tools/build_site.py --check-numbers   # 한글 수사(개수·나이) �
 - 빌더는 `publish_date <= 오늘(KST)`인 원고만 `stories/<slug>.html`로 만들고, 미래 원고의 HTML은 만들지 않으며 이미 있던 파일은 지웁니다. 홈·라인업·사이트맵도 발행분만 반영합니다.
 - 나이·연도·횟수·개수는 모두 아라비아 숫자로 적습니다. 빌더가 한글 수사를 검사해 1건이라도 있으면 실패합니다.
 - `.github/workflows/publish-daily.yml`이 매일 KST 09:00에 빌드하고 변경분을 `main`에 커밋·푸시합니다. Cloudflare Pages는 `main` 푸시로 자동 배포됩니다.
-- `data/`, `tools/`는 `.assetsignore`로 배포 대상에서 제외됩니다.
+- `data/`, `tools/`는 공개되면 안 되므로 `functions/_middleware.js`가 `/data/*`, `/tools/*`, `*.py`, `README.md` 요청을 404로 돌려보냅니다. (`.assetsignore`는 Cloudflare Workers 정적 자산용이며 Pages에서는 적용되지 않습니다.)
 
 ## 로컬 확인
 
