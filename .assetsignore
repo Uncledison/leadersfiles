@@ -1,4 +1,14 @@
+# Cloudflare Pages 는 이 폴더를 그대로 정적 자산으로 배포한다.
+# 공개 사이트에 속하지 않는 원고·스크립트·빌드 메모는 자산 트리에서 제외한다.
+# 문법은 .gitignore 와 같다.
+
+.git/
+.github/
+data/
+tools/
 README.md
 .assetsignore
-.git
-.github
+.gitignore
+__pycache__/
+*.pyc
+.DS_Store

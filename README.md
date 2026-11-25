@@ -2,16 +2,22 @@
 
 실패를 넘은 사람들의 1차 기록 아카이브. 위대한 사람들의 성공담이 아니라, 가장 아팠던 하루를 날짜와 숫자, 그날 남긴 말로 기록하는 정적 매거진입니다.
 
-- 라이브(예정): https://readersfiles.com
+- 라이브: https://readersfiles.pages.dev
 - 저장소: https://github.com/oraclekidz/readersfiles
 
 ## 구조
 
 ```
-index.html                 매거진 홈 (대표 기록, 발행 목록, 구독, 에디토리얼 원칙)
-stories/edison-1914.html   에디슨 · 1914년 12월 9일 웨스트오렌지 화재
-stories/lincoln-1858.html  링컨 · 1858년 상원 낙선과 1860년
-stories/tesla-1895.html    테슬라 · 1895년 3월 13일 실험실 화재
+data/s01_edison.py …       스토리 원고 (publish_date 포함, 빌드의 유일한 원본)
+tools/build_site.py        빌더 — 발행일이 지난 원고만 HTML로 생성
+tools/story_template.html  스토리 페이지 템플릿
+tools/index_template.html  홈 템플릿
+tools/leaders_template.html 라인업 템플릿
+.github/workflows/publish-daily.yml  매일 KST 09:00 자동 발행
+index.html                 매거진 홈 (빌드 산출물)
+stories/edison-1914.html   에디슨 · 1914년 12월 9일 웨스트오렌지 화재 (빌드 산출물)
+stories/lincoln-1858.html  링컨 · 1858년 상원 낙선과 1860년 (빌드 산출물)
+stories/tesla-1895.html    테슬라 · 1895년 3월 13일 실험실 화재 (빌드 산출물)
 leaders/index.html         후보 30인 라인업 (분류 필터)
 about/index.html           에디토리얼 원칙
 privacy/index.html         개인정보 처리방침
@@ -23,7 +29,22 @@ assets/img/                초상(WebP/JPG)과 공유 이미지
 sitemap.xml, robots.txt
 ```
 
-빌드 도구나 패키지는 필요 없습니다. 정적 파일 그대로 배포합니다.
+`index.html`, `leaders/index.html`, `stories/*.html`, `sitemap.xml`은 손으로 고치지 않습니다. `data/`의 원고를 고친 뒤 빌더를 돌립니다.
+
+## 예약발행
+
+```bash
+python3 tools/build_site.py                   # KST 오늘 이전 원고만 발행
+python3 tools/build_site.py --today=2026-12-05 # 특정 날짜 기준으로 확인
+python3 tools/build_site.py --include-future  # 전체 원고 빌드 (로컬 검증)
+python3 tools/build_site.py --check-numbers   # 한글 수사(개수·나이) 전수 검사
+```
+
+- 원고는 `data/sNN_slug.py`에 `STORY = {...}`로 두고 `publish_date`(YYYY-MM-DD)를 적습니다.
+- 빌더는 `publish_date <= 오늘(KST)`인 원고만 `stories/<slug>.html`로 만들고, 미래 원고의 HTML은 만들지 않으며 이미 있던 파일은 지웁니다. 홈·라인업·사이트맵도 발행분만 반영합니다.
+- 나이·연도·횟수·개수는 모두 아라비아 숫자로 적습니다. 빌더가 한글 수사를 검사해 1건이라도 있으면 실패합니다.
+- `.github/workflows/publish-daily.yml`이 매일 KST 09:00에 빌드하고 변경분을 `main`에 커밋·푸시합니다. Cloudflare Pages는 `main` 푸시로 자동 배포됩니다.
+- `data/`, `tools/`는 `.assetsignore`로 배포 대상에서 제외됩니다.
 
 ## 로컬 확인
 
@@ -34,10 +55,10 @@ python3 -m http.server 8080 --directory .
 
 ## 배포
 
-Cloudflare Pages 또는 정적 호스팅에 저장소를 연결하고, 빌드 명령 없이 출력 디렉터리를 저장소 루트로 지정합니다. GitHub Pages로 배포할 경우 프로젝트 경로(`/readersfiles/`)에서도 동작하도록 모든 내부 링크는 상대 경로입니다. 다만 `canonical`, `og:url`, `sitemap.xml`은 `https://readersfiles.com` 기준이므로, 실제 도메인이 다르면 아래처럼 바꿉니다.
+Cloudflare Pages 또는 정적 호스팅에 저장소를 연결하고, 빌드 명령 없이 출력 디렉터리를 저장소 루트로 지정합니다. GitHub Pages로 배포할 경우 프로젝트 경로(`/readersfiles/`)에서도 동작하도록 모든 내부 링크는 상대 경로입니다. 다만 `canonical`, `og:url`, `sitemap.xml`은 `https://readersfiles.pages.dev` 기준이므로, 실제 도메인이 다르면 아래처럼 바꿉니다.
 
 ```bash
-grep -rl 'https://readersfiles.com' --include='*.html' --include='*.xml' . | xargs sed -i 's#https://readersfiles.com#https://실제도메인#g'
+grep -rl 'https://readersfiles.pages.dev' --include='*.html' --include='*.xml' . | xargs sed -i 's#https://readersfiles.pages.dev#https://실제도메인#g'
 ```
 
 ## 이메일 구독
