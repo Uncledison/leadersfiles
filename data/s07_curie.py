@@ -80,3 +80,128 @@ STORY = {
         {"k": "5단계", "name": "이후", "year": "1908 — 1934", "sub": ["정교수", "1911년 노벨 화학상", "라듐 연구소"], "title": "자리에서 제도로", "body": "그녀는 정교수가 됐고 2번째 노벨상을 받았고, 원하던 실험실을 세웠습니다."},
     ],
 }
+
+
+STORY_EN = {
+    'alt_name': """Marie Curie""",
+    'person': """Marie Curie""",
+    'person_short': """Curie""",
+    'title': """1906, From the Sentence Her Husband Left Unfinished""",
+    'title_html': """1906, from the sentence<br>her husband left unfinished""",
+    'eyebrow': """Curie story""",
+    'desc': """On 19 April 1906 Pierre Curie was killed by a horse-drawn wagon on the rue Dauphine in Paris. 7 months later Marie Curie stood at the Sorbonne. She began the lecture at the exact point where her husband had stopped.""",
+    'card_desc': """7 months after the accident, a 38-year-old woman began the first lecture by a woman in a 600-year-old university, at the sentence her husband had left.""",
+    'minutes': """8 min read""",
+    'alt': """Black-and-white editorial portrait of Marie Curie, gold light falling from the right (AI-generated)""",
+    'tl_head': """From loss<br>to the lectern""",
+    'filebox_title': """Case file""",
+    'filebox': [
+        ('Accident', '19 April 1906 · rue Dauphine, Paris'),
+        ('Family', 'daughter Irène, 8 · daughter Ève, 14 months'),
+        ('Refused', 'state pension · she would raise the children herself'),
+        ('Offer', '13 May 1906 · the Sorbonne lectureship'),
+        ('First lecture', '5 November 1906, 1:30 pm'),
+        ('After', 'professor in 1908 · Nobel Prize in Chemistry, 1911'),
+    ],
+    'lead_html': """<span class="hl">On 19 April 1906 a horse-drawn wagon struck a man on the rue Dauphine in Paris.</span> It was raining, and Pierre Curie was crossing the street holding an umbrella. He went under the wheels of a 6-ton military wagon and died on the spot. On 5 November, 7 months later, at 1:30 pm, Marie Curie began her lecture at the exact sentence where her husband had stopped.""",
+    'article_html': """<h2><span class="num">01</span>That afternoon</h2>
+    <p>On Thursday 19 April 1906 Pierre Curie worked in the laboratory until morning. At midday he lectured at a meeting of the association of science professors. He meant to look at proofs with his publisher and call at a library nearby, and he had invited colleagues to the house that evening.</p>
+    <p>The publisher's door was closed by a strike. He was crossing the street when the wagon hit him. One account says the umbrella he used against the rain kept him from seeing ahead. He was not yet 47.</p>
+    <p>Marie heard the news that evening. She sent her daughter Irène to a neighbour, telegraphed the family in Poland, and had the body brought home. The laboratory assistant who identified the body said later: &ldquo;He was never careful enough, walking in the street or riding a bicycle. He was always thinking of something else.&rdquo;</p>
+
+    <h2><span class="num">02</span>The pension she refused</h2>
+    <p>The day after the funeral Pierre's brother Jacques told her the French government had offered a pension for the family. She refused. She said she could support the children and did not need the pension.</p>
+    <p>She wrote of that time: &ldquo;Crushed by the blow, I did not feel able to face the future. I could not forget, however, what my husband used to say, that even deprived of him, I ought to continue my work.&rdquo;</p>
+    <p>The work was radium and radioactivity. After she and her husband found radium in 1898, the two spent 4 years in a laboratory as cold as a shed. In 1903 they shared the Nobel Prize in Physics with Henri Becquerel. The prize money went into the laboratory and household costs.</p>
+
+    <h2><span class="num">03</span>The offer of 13 May</h2>
+    <p>On 13 May 1906 the University of Paris asked her to take over Pierre's lectures, the physics course he had been giving. She agreed.</p>
+    <p>In more than 600 years the Sorbonne had never had a woman professor. She lectured at first not as a professor but as an hourly lecturer, and the university gave no money to build her a laboratory. She used the small laboratory her husband had used.</p>
+    <p>What she wanted was not the post but the laboratory. She wrote later that her aim was to build a proper institute in Pierre's memory. Taking the lectures was the first step toward it.</p>
+
+    <h2><span class="num">04</span>5 November, 1:30 pm</h2>
+    <p>On the day of the first lecture the hall was full of students and onlookers. A new professor's first lecture usually opens with praise of a predecessor and an eloquent account of the field. She did neither.</p>
+    <p>She spoke plainly of how far physics had come in the past 10 years, then continued from the exact point where her husband had stopped in his last lecture. The Paris papers gave the scene wide coverage. She was the first woman to stand at the Sorbonne lectern.</p>
+    <p>In 1908 she became a professor, the first woman to hold a professorship at a French university. In 1911 she received the Nobel Prize in Chemistry, the first person to win Nobel Prizes in 2 sciences.</p>
+
+    <h2><span class="num">05</span>The 28 years after</h2>
+    <p>In 1914 the Radium Institute opened in Paris, the laboratory she had wanted for years. When the First World War broke out she sent cars carrying X-ray equipment to the front, and there are records of her driving them herself and teaching radiography.</p>
+    <p>On 4 July 1934 she died at 66. The cause was aplastic anaemia, brought on by a lifetime of work with radiation. Her notebooks are still kept in lead boxes, because enough radioactivity remains on them to be dangerous to touch.</p>
+    <p>What she did on 5 November 1906 was more than give a lecture. It was showing, under her own name, how not to stop because of a loss.</p>""",
+    'quote_text_html': """Crushed by the blow,<br>I did not feel able to face the future.<br>I could not forget, however, what my husband used to say.""",
+    'quote_en': '',
+    'quote_caption': """&mdash; <b>Marie Curie</b> · 1906, written after Pierre's death""",
+    'takeaway_line_html': """To take something on<br>was to <em>stand in the same place</em>.""",
+    'takeaway_sub': """On 5 November 1906 she began the lecture at the sentence her husband had left unfinished.""",
+    'share_title': """1906, From the Sentence Her Husband Left Unfinished · LEADERS FILES""",
+    'share_text': """One line of courage — To take something on was to stand in the same place. (Curie, 1906) · LEADERS FILES""",
+    'sources_html': """<li>American Institute of Physics, &lsquo;Marie Curie — Tragedy and Adjustment (1906-1910)&rsquo; — the accident of 19 April 1906, the pension refused, the offer of 13 May, the first lecture of 5 November. https://history.aip.org/exhibits/curie/trag1.htm</li>
+      <li>American Institute of Physics, &lsquo;Marie Curie — Tragedy and Adjustment&rsquo; (2) — the lecture of 5 November 1906 and the sentence with which she began. https://history.aip.org/exhibits/curie/trag2.htm</li>
+      <li>Musée Curie, &lsquo;Pierre et Marie Curie : chronologie&rsquo; — death on 19 April 1906, lecture on 5 November, professorship in 1908. https://musee.curie.fr/decouvrir/la-famille-curie/pierre-et-marie-curie-chronologie</li>
+      <li>Musée Curie, &lsquo;Un couple de pionniers&rsquo; — the accident on the rue Dauphine, the first lecture of 5 November 1906, the chair of general physics in 1908. https://musee.curie.fr/decouvrir/la-famille-curie/un-couple-de-pionniers</li>
+      <li>Abraham Pais, &lsquo;Marie Curie at 150&rsquo;, Cambridge University Press blog (2017) — Pierre's age at the accident, 1:30 pm on 5 November, the first woman professor in 600 years. https://cambridgeblog.org/2017/11/marie-curie-at-150-natural-radioactivity/</li>
+      <li>Sara Rockwell, &lsquo;The life and legacy of Marie Curie&rsquo;, Yale Journal of Biology and Medicine (2003) — the first woman to lecture at the Sorbonne, the 2 Nobel Prizes. https://ncbi.nlm.nih.gov/pmc/articles/2582731</li>""",
+    'fine': """Pierre's age at death is given as 46 in some sources and 47 in others, so the text says &lsquo;not yet 47&rsquo;. The Sorbonne post is documented in order: offered 13 May 1906, first lecture 5 November 1906, professorship in 1908. Irène was 8 in 1906; Ève, born in December 1904, was 14 months old. The portrait is an AI-generated editorial image, not a historical photograph.""",
+    'timeline': [
+     {
+      "k": "Step 1",
+      "name": "Accident",
+      "year": "1906.04.19",
+      "sub": [
+       "Rue Dauphine",
+       "A 6-ton wagon",
+       "Death at 46"
+      ],
+      "title": "A rainy afternoon in Paris",
+      "body": "Pierre Curie was killed by a wagon. Marie heard the news that evening."
+     },
+     {
+      "k": "Step 2",
+      "name": "Refusal",
+      "year": "spring 1906",
+      "sub": [
+       "State pension",
+       "2 daughters",
+       "A sentence to go on with"
+      ],
+      "title": "Her work instead of a pension",
+      "body": "She refused the pension and repeated to herself what her husband used to say."
+     },
+     {
+      "k": "Step 3",
+      "name": "Offer",
+      "year": "1906.05.13",
+      "sub": [
+       "The Sorbonne",
+       "Pierre's lectures",
+       "600 years"
+      ],
+      "title": "The university opens a door",
+      "body": "The Sorbonne asked her to take over her husband's lectures, the first time in 600 years."
+     },
+     {
+      "k": "Step 4",
+      "name": "First lecture",
+      "year": "1906.11.05 13:30",
+      "sub": [
+       "A full hall",
+       "The unfinished sentence",
+       "The first woman professor"
+      ],
+      "title": "Continuing the sentence",
+      "body": "Instead of praise she described the progress of physics, and took the lecture on from where her husband had stopped."
+     },
+     {
+      "k": "Step 5",
+      "name": "After",
+      "year": "1908 — 1934",
+      "sub": [
+       "Professorship",
+       "Nobel Prize, 1911",
+       "Radium Institute"
+      ],
+      "title": "From a post to an institution",
+      "body": "She became a professor, won a second Nobel Prize, and built the laboratory she wanted."
+     }
+    ],
+}

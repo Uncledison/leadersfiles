@@ -137,3 +137,130 @@ STORY = {
      }
     ],
 }
+
+
+STORY_EN = {
+    'alt_name': """Abraham Lincoln""",
+    'person': """Abraham Lincoln""",
+    'person_short': """Lincoln""",
+    'title': """1858, He Won the Votes and Lost the Seat""",
+    'title_html': """1858, he won the votes<br>and lost the seat""",
+    'eyebrow': """Lincoln story""",
+    'desc': """In 1858 Lincoln led the statewide vote in Illinois, but the legislature's ballot went 54 to 46 against him. 17 days after the defeat he wrote: &ldquo;The cause of civil liberty must not be surrendered at the end of 1 defeat, or even, 100.&rdquo;""",
+    'card_desc': """He led the statewide vote, but the seat was chosen by the legislature. 54 to 46: he lost.""",
+    'minutes': """8 min read""",
+    'alt': """Black-and-white editorial portrait of Abraham Lincoln, gold light falling from the right (AI-generated)""",
+    'tl_head': """From the defeat<br>to the presidency""",
+    'filebox_title': """Case file""",
+    'filebox': [
+        ('Event', '1858 Illinois election for the US Senate'),
+        ('Candidates', 'Abraham Lincoln vs Stephen A. Douglas'),
+        ('Statewide vote', 'Republican about 125,000 · Democrat about 121,000'),
+        ('Legislature ballot', '5 January 1859 · Douglas 54 · Lincoln 46'),
+        ('Debates', 'August — October 1858, 7 towns'),
+        ('Next', '6 November 1860 · 180 electoral votes'),
+    ],
+    'lead_html': """<span class="hl">On 2 November 1858 the Republicans of Illinois led in the statewide vote.</span> The Senate seat went to the Democrat Stephen Douglas anyway. The senator was chosen not by the voters but by the state legislature.""",
+    'article_html': """<h2><span class="num">01</span>16 June 1858,<br>a house divided</h2>
+    <p>16 June 1858, the state house in Springfield. The Illinois Republican convention nominated Lincoln for the United States Senate. It was the first time a party formally nominated a Senate candidate at a convention, because the seat was normally chosen by the legislature.</p>
+    <p>5 sentences into his acceptance speech, Lincoln put in this line: <strong>&ldquo;A house divided against itself cannot stand.&rdquo;</strong> He went on: &ldquo;I believe this government cannot endure, permanently half slave and half free.&rdquo;</p>
+    <p>Behind it were the Kansas-Nebraska Act of 1854 and the Dred Scott decision of 1857. His diagnosis was that the conflict over slavery could split the Union. The rest of the speech aimed at Douglas's &lsquo;popular sovereignty&rsquo;, the argument that the settlers of a territory could decide the question themselves.</p>
+
+    <h2><span class="num">02</span>Face to face, 7 times</h2>
+    <p>From 21 August to 15 October that year, Lincoln and Douglas met in 7 Illinois towns: Ottawa, Freeport, Jonesboro, Charleston, Galesburg, Quincy and Alton. The crowds ran from several thousand to more than 10,000.</p>
+    <p>At Freeport, Lincoln asked Douglas whether the people of a territory could keep slavery out if the Supreme Court ruled they could not. Douglas answered that they could, through their legislature. That answer is the Freeport Doctrine. It angered the South, and in 1860 the Democratic Party split into northern and southern candidates.</p>
+    <p>Lincoln did not argue for racial equality in the debates. He said that stopping the extension of slavery was the way to preserve the Union. Read by present standards it is an incomplete answer, but what he aimed at was not moral completeness; it was a political boundary.</p>
+
+    <h2><span class="num">03</span>He won the votes and lost the seat</h2>
+    <p>The election did not choose a senator directly. Voters chose members of the legislature, and the legislature chose the senator. The Republicans took about 125,000 votes statewide, the Democrats about 121,000.</p>
+    <p>But because of districts drawn to the 1850 census, the Democrats won more seats. 13 state senators were still serving their terms, and 8 of them were Democrats. Unless the new house gave the Republicans an overwhelming majority, the seat belonged to the Democrats.</p>
+    <p>On 5 January 1859, the joint ballot went 54 for Douglas and 46 for Lincoln. Lincoln is reported to have said: &ldquo;It hurts too much to laugh, and I'm too big to cry.&rdquo;</p>
+
+    <h2><span class="num">04</span>19 November 1858,<br>2 letters</h2>
+    <p>17 days after the defeat, Lincoln wrote 2 letters. One answered his old friend Anson Henry.</p>
+    <blockquote>&ldquo;I am glad I made the late race. It gave me a hearing on the great and durable question of the age, which I could have had in no other way; and though I now sink out of view, and shall be forgotten, I believe I have made some marks which will tell for the cause of civil liberty long after I am gone.&rdquo;<br>&mdash; to Anson G. Henry, 19 November 1858</blockquote>
+    <p>The same day he wrote to Henry Asbury.</p>
+    <blockquote>&ldquo;The fight must go on. The cause of civil liberty must not be surrendered at the end of one, or even, one hundred defeats.&rdquo;</blockquote>
+    <p>He was not an optimist. In January 1841, after his engagement broke off, he wrote to his law partner: &ldquo;I am now the most miserable man living.&rdquo; Depression followed him all his life. What he won with was not a mood but a schedule: the next election, the next debate, the next letter.</p>
+
+    <h2><span class="num">05</span>6 November 1860</h2>
+    <p>The presidential election was contested by 4 candidates. Lincoln took 1,866,452 votes, 39.8%, and 180 electoral votes. He finished first in no southern state, but the northern vote decided the presidency.</p>
+    <p>6 weeks after the election, South Carolina left the Union and the Civil War began. What he had said in 1858 was a calculation, not a prophecy. The house divided did not stand. And rebuilding it fell to him.</p>
+    <p>In November 1858 he had written that he would sink out of view. 2 years later he stood where the whole country could see him.</p>""",
+    'quote_text_html': """A house divided<br>against itself<br>cannot stand.""",
+    'quote_en': '',
+    'quote_caption': """&mdash; <b>Abraham Lincoln</b> · 16 June 1858, acceptance speech at Springfield""",
+    'takeaway_line_html': """The cause is not surrendered<br>by 1 defeat,<br><em>or by 100</em>.""",
+    'takeaway_sub': """From his letter to Henry Asbury, 19 November 1858, 17 days after the defeat.""",
+    'sources_html': """<li>National Park Service, Lincoln Home National Historic Site — &lsquo;Lincoln Chronology&rsquo; (the vote of 2 November 1858; 54 to 46). https://www.nps.gov/liho/learn/historyculture/lincolnchronology.htm</li>
+      <li>National Park Service, &lsquo;Lincoln After Losing the 1858 Senate Race&rsquo; — the letters to Henry Asbury and Anson Henry, 19 November 1858. https://www.nps.gov/liho/learn/historyculture/loss1858.htm</li>
+      <li>Abraham Lincoln, &lsquo;House Divided&rsquo; speech, 16 June 1858 — in Roy P. Basler (ed.), Collected Works of Abraham Lincoln (reproduced by NPS). https://www.nps.gov/liho/learn/historyculture/housedivided.htm</li>
+      <li>David Herbert Donald, Lincoln (Touchstone, 1996), p. 228 — district apportionment, the 13 senators still serving, the ballot of 5 January 1859 (as reproduced by House Divided). https://hd.housedivided.dickinson.edu/node/16656</li>
+      <li>Papers of Abraham Lincoln — letter to John T. Stuart, 23 January 1841. https://papersofabrahamlincoln.org/documents/D200248</li>
+      <li>American Presidency Project · National Archives — 1860 election, 39.8% and 180 electoral votes. https://www.presidency.ucsb.edu/statistics/elections/1860</li>""",
+    'fine': """The statewide vote of 1858 is given in the sources as either 125,000 to 121,000 (approximate) or 126,084 to 121,940 (exact count); the text follows the NPS chronology's approximate figures. The &ldquo;hurts too much to laugh&rdquo; line is a reported remark carried in a Senate chronology, and the original letter was not examined directly. The portrait is an AI-generated editorial image.""",
+    'share_title': """1858, He Won the Votes and Lost the Seat · LEADERS FILES""",
+    'share_text': """One line of courage — The cause of civil liberty must not be surrendered at the end of 1 defeat, or even, 100. (Lincoln, 1858) · LEADERS FILES""",
+    'timeline': [
+     {
+      "k": "Step 1",
+      "name": "Fracture",
+      "year": "1854 — 1857",
+      "sub": [
+       "Kansas-Nebraska Act",
+       "Dred Scott",
+       "Joining the Republicans"
+      ],
+      "title": "The question that split the Union",
+      "body": "Would slavery extend into the new territories? After the Kansas-Nebraska Act and Dred Scott, the question could no longer be postponed by compromise. Lincoln left the Whigs and stood with the Republicans."
+     },
+     {
+      "k": "Step 2",
+      "name": "Speech",
+      "year": "1858.06.16",
+      "sub": [
+       "Springfield",
+       "\"A house divided\"",
+       "Senate nomination"
+      ],
+      "title": "A house divided cannot stand",
+      "body": "Accepting the party's Senate nomination, Lincoln said the Union could not endure permanently half slave and half free."
+     },
+     {
+      "k": "Step 3",
+      "name": "Debates",
+      "year": "1858.08 — 10",
+      "sub": [
+       "7 towns",
+       "Freeport Doctrine",
+       "Crowds of thousands"
+      ],
+      "title": "Face to face, 7 times",
+      "body": "From Ottawa to Alton, Lincoln and Douglas debated 7 times. Douglas's answer at Freeport became the Freeport Doctrine, and it brought the anger of the South."
+     },
+     {
+      "k": "Step 4",
+      "name": "Defeat",
+      "year": "1858.11.02 — 1859.01.05",
+      "sub": [
+       "Ahead on votes",
+       "Seat apportionment",
+       "54 to 46"
+      ],
+      "title": "Votes won, seat lost",
+      "body": "The Republicans led statewide by about 4,000 votes but did not take the legislature, because of districts drawn to the 1850 census and 13 senators still serving. The joint ballot was 54 to 46."
+     },
+     {
+      "k": "Step 5",
+      "name": "Election",
+      "year": "1860.11.06",
+      "sub": [
+       "4 candidates",
+       "39.8%",
+       "180 electoral votes"
+      ],
+      "title": "2 years later, the same words, the presidency",
+      "body": "In 1860 Lincoln won 39.8% of the vote and 180 electoral votes. He finished first in no southern state, but the northern vote decided the result."
+     }
+    ],
+}

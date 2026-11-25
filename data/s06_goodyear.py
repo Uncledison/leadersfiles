@@ -79,3 +79,127 @@ STORY = {
         {"k": "5단계", "name": "마지막", "year": "1855 — 1860", "sub": ["파리 감옥 16일", "레지옹 도뇌르", "빚 20만 달러"], "title": "감옥에서 받은 훈장", "body": "훈장은 감옥까지 배달됐습니다. 그는 1860년 59세로 숨졌고, 유산은 빚이었습니다."},
     ],
 }
+
+
+STORY_EN = {
+    'alt_name': """Charles Goodyear""",
+    'person': """Charles Goodyear""",
+    'person_short': """Goodyear""",
+    'title': """1839, a Piece of Rubber Fell on the Stove""",
+    'title_html': """1839, a piece of rubber<br>fell on the stove""",
+    'eyebrow': """Goodyear story""",
+    'desc': """In 1839, in a shop in Woburn, Massachusetts, a piece of rubber fell onto a hot stove. It did not melt; it hardened like leather. That piece is where the modern tyre begins. Goodyear did not grow rich from the patent.""",
+    'card_desc': """It took 5 years to find the rubber that would not melt. He lived in debt all his life and was given a medal in prison.""",
+    'minutes': """9 min read""",
+    'alt': """Black-and-white editorial portrait of Charles Goodyear, gold light falling from the right (AI-generated)""",
+    'tl_head': """From debt and prison<br>to standing again""",
+    'filebox_title': """Case file""",
+    'filebox': [
+        ('1834', 'life-jacket valve refused · Roxbury Rubber Company'),
+        ('1837', 'panic · everything lost · mailbags melt'),
+        ('1839', 'the stove in Woburn · rubber with sulphur'),
+        ('1844', 'US patent 3,633 · vulcanisation'),
+        ('1855', '16 days in a Paris debtors&rsquo; prison · Légion d&rsquo;honneur'),
+        ('1860', 'dies 1 July · $200,000 in debt'),
+    ],
+    'lead_html': """<span class="hl">1839, a shop in Woburn, Massachusetts. Charles Goodyear stood in front of people holding a lump of rubber nobody would buy.</span> His hand swung out and a piece of it fell onto the hot stove. He scraped at it quickly, but the rubber did not melt. It had hardened like leather.""",
+    'article_html': """<h2><span class="num">01</span>The valve that was refused</h2>
+    <p>In 1834 Goodyear took an air valve for a life jacket to the Roxbury Rubber Company in New York. His father had failed in the hardware trade in New Haven, and he was looking for something he could sell. The company refused the valve without looking at it. The clerk told him instead to think of a way to make rubber usable.</p>
+    <p>That clerk took him to the storeroom. The shelves were stacked with rubber goods melted together by the summer heat. India rubber ran in summer and cracked in winter. The American rubber boom of the mid-1830s was going out that way.</p>
+    <p>Goodyear spent the 5 years after that storeroom on rubber. He mixed chemicals in pots and frying pans in his wife's kitchen and in the kitchen of the prison he entered because of debt: nitric acid, lime, turpentine. The household goods were sold one by one.</p>
+
+    <h2><span class="num">02</span>1837, losing everything</h2>
+    <p>In 1836 he succeeded in smoothing the surface of rubber with nitric acid. The United States Post Office in Boston ordered rubber mailbags from him. When summer came the bags melted again. The acid had hardened only the surface.</p>
+    <p>In 1837 the United States fell into a financial panic. Goodyear's family lost what was left. He fished to feed them. The mailbags melted, the investors left, and he went to prison again.</p>
+    <p class="aside">He is said to have called the debtors' prison a &lsquo;hotel&rsquo;. It was not a joke; there is a record that he said it. Even in prison at night he mixed rubber in dishes borrowed from the kitchen.</p>
+
+    <h2><span class="num">03</span>The stove in Woburn</h2>
+    <p>In 1839 Goodyear was showing his rubber in a shop in Woburn, Massachusetts. People laughed. He swung his hand in his excitement, and the lump of rubber flew onto the stove.</p>
+    <p>The rubber he scraped off did not melt and stick. The surface was scorched like leather, and at the edge a fully hardened rim was left. He spent 5 more years heating rubber mixed with sulphur over stoves, in ovens, with irons and with kettles.</p>
+    <p>In June 1844 he received US patent 3,633 for treating rubber with sulphur at high heat. The process came to be called vulcanisation, after the Roman god of fire.</p>
+
+    <h2><span class="num">04</span>Poor even with the patent</h2>
+    <p>The patent did not make him rich. Companies that copied the process appeared in the United States and Europe, and he spent his life in lawsuits. The European patents were voided on technical grounds. He lost a libel case too, and went to prison again in France.</p>
+    <p>At the Paris Exposition of 1855 Napoleon III meant to give him the Légion d&rsquo;honneur. Goodyear was in a debtors' prison outside Paris. His son brought the medal to the prison. He was held 16 days and then released.</p>
+    <p>On 1 July 1860, on his way to see his sick daughter, he collapsed in New York. The daughter had already died. He died at 59, and his estate was about $200,000 of debt.</p>
+
+    <h2><span class="num">05</span>What he left</h2>
+    <p>When he died, the industry using vulcanised rubber employed 60,000 people and earned $8,000,000 a year. His name today belongs to one of the largest tyre companies in the world, but that company is not one he founded. The company that borrowed his name was set up 38 years after his death.</p>
+    <p>Goodyear was not a man who overcame failure. He was a man who kept experimenting inside it. What he had was not money but the persistence to look for a compound that would not melt, and that persistence turned one accident into 5 years of experiment.</p>""",
+    'quote_text_html': """Life should not be estimated<br>exclusively by the standard<br>of dollars and cents.""",
+    'quote_en': '',
+    'quote_caption': """&mdash; <b>Charles Goodyear</b> · widely attributed""",
+    'takeaway_line_html': """He did not become rich.<br>His rubber <em>still rolls</em>.""",
+    'takeaway_sub': """He died leaving $200,000 of debt, in a year when the vulcanised rubber industry employed 60,000 people.""",
+    'share_title': """1839, a Piece of Rubber Fell on the Stove · LEADERS FILES""",
+    'share_text': """One line of courage — He did not become rich. His rubber still rolls. (Goodyear, 1839) · LEADERS FILES""",
+    'sources_html': """<li>Connecticut History, &lsquo;Charles Goodyear and the Vulcanization of Rubber&rsquo; (2014) — the valve refused in 1834, the panic and mailbags of 1837, the Woburn accident of 1839, the patent of 1844, his death in 1860 and the $200,000 debt. https://connecticuthistory.org/charles-goodyear-and-the-vulcanization-of-rubber/</li>
+      <li>MIT Lemelson, &lsquo;Charles Goodyear&rsquo; — the 1834 valve, the 1839 accident, patent 3,633 of 1844, 2 weeks in a French prison and the Légion d&rsquo;honneur, the $200,000 debt at his death. https://lemelson.mit.edu/resources/charles-goodyear</li>
+      <li>Encyclopedia.com, &lsquo;Charles Goodyear Discovers the Process for Creating Vulcanized Rubber&rsquo; — the nitric acid process of 1836, the mailbags of 1837, the accident of 1839, 16 days in Paris in 1855, an industry of 60,000 people and $8,000,000 at his death. https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/charles-goodyear-discovers-process-creating-vulcanized-rubber</li>
+      <li>Wikipedia, &lsquo;Charles Goodyear&rsquo; — debtors' prisons in England and France in 1855, his death on 1 July 1860, an estate of about $200,000 in debt. https://en.wikipedia.org/wiki/Charles_Goodyear</li>
+      <li>American Heritage, &lsquo;Charles Goodyear&rsquo; (1978) — the Paris debtors' prison and the Légion d&rsquo;honneur, the $200,000 debt at his death. https://www.americanheritage.com/charles-goodyear</li>
+      <li>New England Historical Society, &lsquo;The Great India Rubber Panic Launches Charles Goodyear on a Crusade&rsquo; (2018) — the rubber boom of the 1830s and the Woburn accident of 1839. https://newenglandhistoricalsociety.com/great-india-rubber-panic-launches-charles-goodyear-into-crusade/</li>""",
+    'fine': """The exact date and place of the 1839 accident differ from biography to biography. The text follows the common account that sulphur-treated rubber touched a hot stove in a Woburn shop, or at the Eagle India Rubber Company. The Paris imprisonment of 1855 lasted 16 days; his detention in England is recorded separately. The &ldquo;dollars and cents&rdquo; line is widely quoted but no primary source was confirmed, so it is marked as widely attributed. The portrait is an AI-generated editorial image, not a historical photograph.""",
+    'timeline': [
+     {
+      "k": "Step 1",
+      "name": "Refusal",
+      "year": "1834",
+      "sub": [
+       "Roxbury Rubber Co.",
+       "Valve refused",
+       "A storeroom of melted stock"
+      ],
+      "title": "Told to find a method, not a product",
+      "body": "Refused over the life-jacket valve, he began instead to look for a way to make rubber usable."
+     },
+     {
+      "k": "Step 2",
+      "name": "Ruin",
+      "year": "1837",
+      "sub": [
+       "Nitric acid mailbags",
+       "Melted in summer",
+       "Everything lost"
+      ],
+      "title": "Rubber hardened only at the surface",
+      "body": "The acid treatment hardened only the surface. When the panic came, the family lost what was left."
+     },
+     {
+      "k": "Step 3",
+      "name": "Discovery",
+      "year": "1839",
+      "sub": [
+       "The stove in Woburn",
+       "Sulphur",
+       "Hard as leather"
+      ],
+      "title": "The dropped rubber did not melt",
+      "body": "Rubber with sulphur fell on the stove and hardened instead of melting. He saw the answer at its edge."
+     },
+     {
+      "k": "Step 4",
+      "name": "Patent",
+      "year": "1844.06",
+      "sub": [
+       "Patent 3,633",
+       "Vulcanisation",
+       "Copied at once"
+      ],
+      "title": "The patent brought no wealth",
+      "body": "Companies copied the process, and he spent 20 years in lawsuits and debt."
+     },
+     {
+      "k": "Step 5",
+      "name": "The end",
+      "year": "1855 — 1860",
+      "sub": [
+       "16 days in Paris",
+       "Légion d&rsquo;honneur",
+       "$200,000 in debt"
+      ],
+      "title": "The medal delivered to a prison",
+      "body": "The medal was delivered to the prison. He died in 1860 at 59, and his estate was debt."
+     }
+    ],
+}

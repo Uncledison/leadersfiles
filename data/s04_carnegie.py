@@ -83,3 +83,131 @@ STORY = {
         {"k": "5단계", "name": "재가동", "year": "1875.08.22 — 09", "sub": ["첫 출강", "1,200톤", "이익 11,000달러"], "title": "2년 뒤의 첫 쇳물", "body": "1875년 8월 22일 첫 강철이 나왔고, 9월 한 달에 1,200톤의 레일과 11,000달러의 이익을 남겼습니다."},
     ],
 }
+
+
+STORY_EN = {
+    'alt_name': """Andrew Carnegie""",
+    'person': """Andrew Carnegie""",
+    'person_short': """Carnegie""",
+    'title': """At 37, the Year the Banks Closed""",
+    'title_html': """At 37,<br>the year the banks closed""",
+    'eyebrow': """Carnegie story""",
+    'desc': """On 18 September 1873 Jay Cooke &amp; Company, one of the largest banks in the United States, failed. At Braddock's Field in Pennsylvania the foundations of a new steel works were half up. Carnegie, 37, did not stop the work.""",
+    'card_desc': """When the panic came his partners could not pay their share. He took their shares and kept building.""",
+    'minutes': """9 min read""",
+    'alt': """Black-and-white editorial portrait of Andrew Carnegie, gold light falling from the right (AI-generated)""",
+    'tl_head': """Standing again<br>inside the panic""",
+    'filebox_title': """Case file""",
+    'filebox': [
+        ('Event', 'Panic of 1873 · failure of Jay Cooke &amp; Co.'),
+        ('Date', '18 September 1873'),
+        ('Site', 'Braddock&rsquo;s Field · Edgar Thomson Steel Works under construction'),
+        ('Capital', '$700,000 · Carnegie $250,000'),
+        ('Construction', 'begun 13 April 1873 → halted September 1873'),
+        ('Funding', 'summer 1874, $400,000 in London bonds'),
+        ('Restart', '22 August 1875, first heat'),
+    ],
+    'lead_html': """<span class="hl">On 18 September 1873 Jay Cooke &amp; Company, one of the largest banks in the United States, failed.</span> Credit built on railway bonds stopped overnight, and banks closed one after another. At Braddock's Field in Pennsylvania the foundations of a new steel works stood half finished. Andrew Carnegie, 37, decided not to stop the work.""",
+    'article_html': """<h2><span class="num">01</span>That day he was in the mountains</h2>
+    <p>On 18 September 1873 the Philadelphia bank Jay Cooke &amp; Company stopped payment. It had financed American railways after the Civil War. The New York Stock Exchange closed, and a depression that lasted for years began that day.</p>
+    <p>Carnegie was then at Cresson in the Allegheny Mountains of Pennsylvania, at the summer house with his family, when the telegram came. He later wrote in his autobiography: &ldquo;I then entered upon the most anxious period of my business life.&rdquo;</p>
+    <p>Telegrams brought news every hour. When one firm fell, the firms that had money with it fell too. His worry, he wrote, was not the bills his company owed but the money owed to it: &ldquo;It was not bills payable that troubled us, but bills receivable.&rdquo;</p>
+
+    <h2><span class="num">02</span>A works standing half built</h2>
+    <p>A year earlier Carnegie had returned from seeing the Bessemer process in England and decided to make railway rails from steel, not iron. He set up a new company and raised $700,000. $250,000 of it was his.</p>
+    <p>On 13 April 1873, ground was broken on 106 acres along the Monongahela River, 11 miles from Pittsburgh. Digging the foundations turned up bayonets and blades buried from General Braddock's battle of 1755. The failure of September stopped the construction.</p>
+    <p>Several partners who had promised funds could not pay their share. Carnegie bought their interests outright and moved the loss onto his own side. Control of the works came into his hands that way, and so did a larger debt.</p>
+    <p class="aside">He did not help Tom Scott. Scott had brought him into the Pennsylvania Railroad and was his mentor and patron, and at that moment he had staked a large sum on the Texas Pacific Railroad. Carnegie made it known to the banks that not $1 of his name stood on that company's paper. Scott failed, and their friendship ended there.</p>
+    <p>Whether refusing was coldness is still argued. What he protected was one thing: that only his own name stood on his own company's paper. Without that there would have been no next step.</p>
+
+    <h2><span class="num">03</span>$400,000 borrowed in London</h2>
+    <p>Rebuilding the works needed money, and American banks were frozen. In the summer of 1874 Carnegie went to London with Alexander Holley, who had designed the plant. The man they met was the international financier Junius Morgan, father of the later J. P. Morgan.</p>
+    <p>With Morgan's name attached, the bonds sold. The two issued $400,000 of bonds in London. When the panic had closed the bond market at home, he went to the city where the market was open.</p>
+    <p>In this period he put cost accounting at the centre of running the company: who saved material, who wasted it, which process produced the best result, all kept as numbers. It was the point at which the firm stopped, as he later put it, being &ldquo;two moles burrowing in the dark&rdquo;.</p>
+
+    <h2><span class="num">04</span>22 August 1875</h2>
+    <p>On 22 August 1875 the first heat went into the furnace at the Edgar Thomson works. Air was blown through the Bessemer converter, the carbon burned, and a column of flame rose. The first steel was poured into moulds.</p>
+    <p>The first rail was rolled on 1 September. In September alone the works made a little over 1,200 tons of rail and a profit of $11,000. In 1880 the profit for the year was $1,625,000, more than the whole cost of building the plant.</p>
+    <p>Carnegie did not sell the works. He knew the railways wanted steel rails, and he knew he could make them cheaper than anyone else. &ldquo;I believe in the ability to make cheaper than others, and I am not afraid of the result of a sharp fight.&rdquo; The line survives from his letter to William Shinn of November 1875.</p>
+
+    <h2><span class="num">05</span>What the panic taught</h2>
+    <p>The failure of 1873 left Carnegie with one works. He stood at the centre of American steel for the next 25 years, and in 1901 sold the company for $480,000,000. The money went to libraries, universities and concert halls.</p>
+    <p>What he learned from the panic was not optimism. It was telling apart those who could pay from those who could not, keeping debt off his own name, and looking for another market when one closed.</p>
+    <p>He later wrote: &ldquo;Watch the costs and the profits will take care of themselves.&rdquo; It is the shortest version of what he learned at Cresson in 1873.</p>""",
+    'quote_text_html': """I then entered upon<br>the most anxious period<br>of my business life.""",
+    'quote_en': '',
+    'quote_caption': """&mdash; <b>Andrew Carnegie</b> · autobiography, September 1873""",
+    'takeaway_line_html': """When the panic closed a door,<br>he looked for <em>another one</em>.""",
+    'takeaway_sub': """He borrowed $400,000 in London in the summer of 1874; in September 1875 the works made 1,200 tons of rail in its first month.""",
+    'share_title': """At 37, the Year the Banks Closed · LEADERS FILES""",
+    'share_text': """One line of courage — When the panic closed a door, he looked for another one. (Carnegie, 1873) · LEADERS FILES""",
+    'sources_html': """<li>Andrew Carnegie, &lsquo;Autobiography of Andrew Carnegie&rsquo; (1920), the chapter on the panic of 1873 — &ldquo;the most anxious period&rdquo;, the telegrams at Cresson, bills receivable, Tom Scott. https://readlinden.com/book/autobiography-andrew-carnegie/chapter-7/</li>
+      <li>Thomas J. Misa, &lsquo;A Nation of Steel&rsquo; (Johns Hopkins, 1995), ch. 1 — the partnership of 5 November 1872, capital of $700,000 with $250,000 from Carnegie, groundbreaking on 13 April 1873, the $400,000 London bonds of 1874, 1,200 tons and $11,000 profit in September 1875, the $1,625,000 profit of 1880. https://www.tjmisa.com/NOS/1.3_develop.html</li>
+      <li>&lsquo;Andrew Carnegie&rsquo;, The Cyclopædia of American Biography (Wikisource) — the shortage of funds in the panic of 1873 and the bond issue. https://en.wikisource.org/wiki/The_Cyclop%C3%A6dia_of_American_Biography/Carnegie,_Andrew</li>
+      <li>Carnegie lecture material (voteview) — the panic of 1873, the break with Tom Scott, the $400,000 London bonds of 1874, completion in 1875. https://legacy.voteview.com/carnegie.htm</li>
+      <li>Museum of American Exceptionalism, &lsquo;Carnegie Steel (1875)&rsquo; — first heat on 22 August 1875, first rail on 1 September, 1,200 tons and $11,000 in the first month, $1,625,000 in 1880. https://museumofamericanexceptionalism.com/exhibits/carnegie-steel/</li>
+      <li>Len Boselovic, &lsquo;Edgar Thomson, the plant that made us the Steel City&rsquo;, Pittsburgh Post-Gazette (2000) — construction cost of about $1,200,000, first steel on 22 August 1875. https://web.archive.org/web/20190627212312/old.post-gazette.com/businessnews/20000822et1.asp</li>""",
+    'fine': """The date the partnership was formed is given as either 5 November 1872 or 1 January 1873, so the text does not fix a date. The $11,000 profit for September 1875 follows Misa's study; the plant cost is given both as $700,000 (initial capital) and as about $1,200,000 (total cost including land and housing). The &ldquo;watch the costs&rdquo; line is rendered from Carnegie's own writing. The portrait is an AI-generated editorial image, not a historical photograph.""",
+    'timeline': [
+     {
+      "k": "Step 1",
+      "name": "Panic",
+      "year": "1873.09.18",
+      "sub": [
+       "Jay Cooke fails",
+       "Exchange closes",
+       "Telegrams at Cresson"
+      ],
+      "title": "The day credit stopped",
+      "body": "The bank that financed American railways stopped payment. The new works in Pittsburgh was halfway through its foundations."
+     },
+     {
+      "k": "Step 2",
+      "name": "Half a works",
+      "year": "autumn 1873",
+      "sub": [
+       "Partners withdraw",
+       "Shares bought out",
+       "Construction halted"
+      ],
+      "title": "Moving the loss onto his side",
+      "body": "When several partners could not pay their share, Carnegie bought their interests. Control and debt came to him together."
+     },
+     {
+      "k": "Step 3",
+      "name": "Break",
+      "year": "1873 — 1874",
+      "sub": [
+       "Scott's Texas Pacific",
+       "Guarantee refused",
+       "The friendship ends"
+      ],
+      "title": "The name he would not guarantee",
+      "body": "When his lifelong patron Scott faced failure, Carnegie kept his name off the paper. Scott failed and the two men parted."
+     },
+     {
+      "k": "Step 4",
+      "name": "London",
+      "year": "summer 1874",
+      "sub": [
+       "With Holley",
+       "Junius Morgan",
+       "$400,000 in bonds"
+      ],
+      "title": "Outside the closed market",
+      "body": "While American banks were frozen, Carnegie issued $400,000 of bonds in London."
+     },
+     {
+      "k": "Step 5",
+      "name": "Restart",
+      "year": "1875.08.22 — 09",
+      "sub": [
+       "First heat",
+       "1,200 tons",
+       "$11,000 profit"
+      ],
+      "title": "The first steel, 2 years later",
+      "body": "The first steel came on 22 August 1875, and in September the works made 1,200 tons of rail and $11,000 of profit."
+     }
+    ],
+}

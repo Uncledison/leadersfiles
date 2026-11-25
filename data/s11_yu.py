@@ -83,3 +83,131 @@ STORY = {
         {"k": "5단계", "name": "옥중", "year": "1920.03.01 — 09.28", "sub": ["옥중 만세", "3,000여 명", "17세 순국"], "title": "감옥 안의 만세", "body": "그는 3·1운동 1주년에 다시 만세를 불렀고, 6개월 뒤 서대문형무소에서 숨졌습니다."},
     ],
 }
+
+
+STORY_EN = {
+    'alt_name': """Yu Gwan-sun""",
+    'person': """Yu Gwan-sun""",
+    'person_short': """Yu Gwan-sun""",
+    'title': """1919, a Market Day at 17""",
+    'title_html': """1919,<br>a market day at 17""",
+    'eyebrow': """Yu Gwan-sun story""",
+    'desc': """On 1 April 1919, 3,000 people gathered at the market in Byeongcheon, Cheonan. Yu Gwan-sun, holding the Korean flag, was 17. 19 people died on the spot that day, among them her parents.""",
+    'card_desc': """A 17-year-old who had shouted for independence in Seoul came home and chose a market day. She lost her parents and sang the same song again in prison.""",
+    'minutes': """9 min read""",
+    'alt': """Black-and-white editorial portrait of Yu Gwan-sun, gold light falling from the right (AI-generated)""",
+    'tl_head': """From the market square<br>to Seodaemun prison""",
+    'filebox_title': """Case file""",
+    'filebox': [
+        ('1 March 1919', 'the independence demonstrations · Pagoda Park'),
+        ('Home', '13 March 1919 · Byeongcheon, Cheonan'),
+        ('Aunae demonstration', '1 April 1919 · about 3,000 people'),
+        ('Dead', '19 killed on the spot · her parents among them'),
+        ('First trial', '9 May 1919 · 5 years'),
+        ('Appeal', '30 June 1919 · 3 years'),
+        ('In prison', '1 March 1920 · about 3,000 prisoners join'),
+        ('Death', '28 September 1920, 8:20 am · aged 17'),
+    ],
+    'lead_html': """<span class="hl">On the afternoon of 1 April 1919, 3,000 people gathered at the market in Byeongcheon, Cheonan, South Chungcheong Province.</span> Yu Gwan-sun, holding the Korean flag, was 17. She called for independence at the head of the crowd and the Japanese military police opened fire. 19 people died on the spot that day. Her father and mother were among them.""",
+    'article_html': """<h2><span class="num">01</span>Over the school wall</h2>
+    <p>Yu Gwan-sun was born on 16 December 1902 in Jiryeong-ri, Mokcheon, South Chungcheong Province. In 1916, on the recommendation of an American Methodist missionary, she entered the ordinary course of Ewha Haktang as a scholarship student. She finished the ordinary course in 1918 and entered the first year of the higher course.</p>
+    <p>On 1 March 1919 the demonstrations began at Pagoda Park in Seoul. Yu Gwan-sun formed a &lsquo;band of 5&rsquo; with Seo Myeong-hak, Kim Bok-sun, Kim Hui-ja and Guk Hyeon-suk. They left the dormitory in white mourning dress, bowed toward the palace gate, and joined the march toward Namdaemun.</p>
+    <p>On 5 March she went out to the student demonstration in front of Namdaemun Station and was arrested by the Japanese police. The school negotiated and she was released with the other students. On 10 March, when the colonial government ordered every school closed, the school shut.</p>
+
+    <h2><span class="num">02</span>The sound of the train</h2>
+    <p>On 13 March Yu Gwan-sun went home with her older cousin Yu Ye-do. The story is told that when her friends said the wheels sounded like &lsquo;1 coin, 1 coin&rsquo;, she said they sounded like &lsquo;Korean independence, Korean independence&rsquo;.</p>
+    <p>At home she passed on the news from Seoul and brought out the declaration of independence she had hidden. The village elder Jo In-won, her father Yu Jung-gwon and her uncle Yu Jung-mu agreed on a plan. 1 April was both 1 March by the lunar calendar and a market day at Byeongcheon. They decided to hold a demonstration that day.</p>
+    <p>Yu Gwan-sun and Yu Ye-do made Korean flags. She went round the neighbouring villages with a cloth over her head, telling people to come out on market day. Word reached villages in Anseong, Mokcheon, Yeongi, Cheongju and Jincheon.</p>
+
+    <h2><span class="num">03</span>1 April, market day</h2>
+    <p>At 1 pm on 1 April Jo In-won read the declaration of independence. The 3,000 people gathered in the market marched, calling for independence. Yu Gwan-sun stood at the front of the crowd holding a large flag tied to a pole.</p>
+    <p>The Japanese military police and the Cheonan railway guard opened fire. 19 people died on the spot and dozens were wounded. Yu Gwan-sun's father and mother died there. She was taken toward the police station and escaped, hiding in a neighbouring house. She was arrested a few days later on her way home.</p>
+    <p class="aside">When she was arrested the Japanese police pointed out that she was a minor and said she would be treated leniently if she admitted the charge and cooperated with the investigation. She refused, and did not give the names of the people with her.</p>
+
+    <h2><span class="num">04</span>The trials</h2>
+    <p>On 9 May 1919 the Gongju District Court sentenced Yu Gwan-sun, Jo In-won and Yu Jung-mu to 5 years. The heaviest sentence given to the 33 national representatives of the March 1 Movement had been 3 years, so a 17-year-old girl received the same sentence as adult leaders.</p>
+    <p>On 30 June the Gyeongseong appellate court reduced it to 3 years. The others appealed to the high court; Yu Gwan-sun did not. A record has come down that she said: &ldquo;Where in the 3,000-ri land would not be a prison?&rdquo; The line is widely quoted, and the circumstances differ from biography to biography.</p>
+    <p>She was held in cell 8 of the women's wing at Seodaemun Prison. After the March 1 demonstrations the prison was crowded: about 3,000 people were held there, more than 6 times its capacity. In the same cell were women who had led demonstrations in Gaeseong, Suwon and Paju.</p>
+
+    <h2><span class="num">05</span>1 March 1920</h2>
+    <p>At 2 pm on 1 March 1920 Yu Gwan-sun asked Eo Yun-hui quietly, in the same cell: &ldquo;Would it be all right if we die shouting for independence? For the cause, would it be all right to die?&rdquo; She passed word through the whole wing by knocking on the walls.</p>
+    <p>The shouting began in cell 8 and spread through the prison. About 3,000 prisoners joined in, and the sound carried outside the walls. Crowds gathered around the prison and the trams stopped. Yu Gwan-sun was dragged away and severely beaten. Her bladder was ruptured.</p>
+    <p>On 28 April 1920 a general amnesty for the marriage of Crown Prince Yeong reduced her term to 1 year and 6 months. She was due for release in January 1921. She did not live that long. At 8:20 am on 28 September 1920 she died at Seodaemun Prison. She was 17.</p>
+    <p>Her body was handed to Ewha Haktang on 12 October, and the funeral was held on 14 October, led by the Reverend Kim Jong-u of Chungdong Church. She was buried in the Itaewon cemetery, but the grave could not be identified when the cemetery was later moved. A memorial grave without remains stands today on Maebongsan in her home village.</p>""",
+    'quote_text_html': """Would it be all right if we die<br>shouting for independence?<br>For the cause, would it be all right to die?""",
+    'quote_en': """&ldquo;우리 만세를 부르다가 죽어도 괜찮지요? 의를 위하여 죽어도 괜찮지요?&rdquo;""",
+    'quote_caption': """&mdash; <b>Yu Gwan-sun</b> · 1 March 1920, as recalled by Eo Yun-hui""",
+    'takeaway_line_html': """At 17 she did it<br>not because she was fearless<br>but because <em>it had to be done</em>.""",
+    'takeaway_sub': """In the winter of the year she lost her parents, she called for independence again inside the prison. 6 months later she died, aged 17.""",
+    'share_title': """1919, a Market Day at 17 · LEADERS FILES""",
+    'share_text': """One line of courage — At 17 she did it not because she was fearless but because it had to be done. (Yu Gwan-sun, 1919) · LEADERS FILES""",
+    'sources_html': """<li>Encyclopedia of Korean Culture (한국민족문화대백과사전), &lsquo;유관순&rsquo; — born 16 December 1902, entered Ewha Haktang in 1916, the Aunae demonstration of 1 April 1919, 5 years on 9 May and 3 years on 30 June, the prison demonstration of 1 March 1920, death on 28 September. https://encykorea.aks.ac.kr/Article/E0041268</li>
+      <li>Yu Gwan-sun Memorial Hall (유관순열사기념관), &lsquo;연보&rsquo; (chronology) — 1, 5 and 13 March, 1 April, 9 May and 30 June 1919; 1 March, 28 April, 28 September, 12 and 14 October 1920. https://www.cheonan.go.kr/yugwansun/sub02_01.do</li>
+      <li>Yu Gwan-sun Memorial Hall, &lsquo;옥중투쟁과 순국&rsquo; (the struggle in prison and her death) — cell 8 of the women's wing, Eo Yun-hui's recollection, &ldquo;would it be all right to die for the cause&rdquo;, the beating and ruptured bladder, death at 8:20 am. https://www.cheonan.go.kr/yugwansun/sub02_02_04.do</li>
+      <li>Digital Cheonan Cultural Encyclopedia (디지털천안문화대전), &lsquo;유관순&rsquo; — about 3,000 people on 1 April, 19 dead, the deaths of her parents, the sentences of 5 and 3 years, the appeal dropped. https://cheonan.grandculture.net/cheonan/toc/GC04500926</li>
+      <li>Digital Dongjak Cultural Encyclopedia (디지털동작문화대전), &lsquo;유관순&rsquo; — Pagoda Park on 1 March, Namdaemun Station on 5 March, home on 13 March, Aunae on 1 April, the deaths of her parents. https://dongjak.grandculture.net/dongjak/toc/GC08200654</li>
+      <li>Wikipedia (Korean), &lsquo;유관순&rsquo; — born 16 December 1902, died 28 September 1920 (aged 17), 5 years at first instance and 3 on appeal, records on the cause of death. https://ko.wikipedia.org/wiki/유관순</li>""",
+    'fine': """Her age is 17 by the Western count of completed years; some sources give 18 by the Korean age count. 1 April 1919 was 1 March by the lunar calendar, so the same date falls in both calendars. Estimates of the crowd at the Aunae demonstration range from 3,000 to 1,500, so the text says &lsquo;about 3,000&rsquo; and names the records. The &ldquo;3,000-ri land&rdquo; line is marked as widely quoted. The portrait is an AI-generated editorial image, not a historical photograph.""",
+    'timeline': [
+     {
+      "k": "Step 1",
+      "name": "1 March",
+      "year": "1919.03.01",
+      "sub": [
+       "Pagoda Park",
+       "The band of 5",
+       "Arrested and released, 5 March"
+      ],
+      "title": "Over the school wall",
+      "body": "Yu Gwan-sun, a student at Ewha Haktang, went out in white mourning dress and joined the march."
+     },
+     {
+      "k": "Step 2",
+      "name": "Home",
+      "year": "1919.03.13",
+      "sub": [
+       "Schools closed",
+       "The declaration",
+       "The market day plan"
+      ],
+      "title": "The girl who went home",
+      "body": "She carried the news from Seoul and prepared a demonstration for the market day of 1 April."
+     },
+     {
+      "k": "Step 3",
+      "name": "Aunae",
+      "year": "1919.04.01",
+      "sub": [
+       "3,000 people",
+       "19 killed",
+       "Her parents among them"
+      ],
+      "title": "At the front with the flag",
+      "body": "Japanese fire killed 19 people, and her parents were among them."
+     },
+     {
+      "k": "Step 4",
+      "name": "Trials",
+      "year": "1919.05 — 06",
+      "sub": [
+       "5 years at first instance",
+       "3 on appeal",
+       "No further appeal"
+      ],
+      "title": "The sentence at 17",
+      "body": "She received the same 5 years as adult leaders, reduced to 3 on appeal."
+     },
+     {
+      "k": "Step 5",
+      "name": "Prison",
+      "year": "1920.03.01 — 09.28",
+      "sub": [
+       "Independence in prison",
+       "About 3,000 join",
+       "Dead at 17"
+      ],
+      "title": "The call inside the prison",
+      "body": "On the first anniversary of the March 1 Movement she called for independence again, and 6 months later she died at Seodaemun Prison."
+     }
+    ],
+}

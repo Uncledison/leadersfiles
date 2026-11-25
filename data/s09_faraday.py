@@ -81,3 +81,129 @@ STORY = {
         {"k": "5단계", "name": "유도", "year": "1831.08.29", "sub": ["자석과 코일", "전류 발생", "발전기의 원리"], "title": "스승 없이 남은 발견", "body": "그는 전자기 유도를 발견했습니다. 오늘날 발전기는 그날의 실험에서 시작됐습니다."},
     ],
 }
+
+
+STORY_EN = {
+    'alt_name': """Michael Faraday""",
+    'person': """Michael Faraday""",
+    'person_short': """Faraday""",
+    'title': """1824, His Teacher Told Him to Take His Certificate Down""",
+    'title_html': """1824, his teacher told him<br>to take his certificate down""",
+    'eyebrow': """Faraday story""",
+    'desc': """On 8 January 1824 a single black ball went into the ballot box of the Royal Society. The candidate was Michael Faraday, a 32-year-old laboratory assistant who had trained as a bookbinder. The man who opposed him in public was his own teacher, Humphry Davy.""",
+    'card_desc': """His teacher backed him, envied him, and told him to withdraw his certificate. He did not take it down.""",
+    'minutes': """9 min read""",
+    'alt': """Black-and-white editorial portrait of Michael Faraday, gold light falling from the right (AI-generated)""",
+    'tl_head': """From his teacher's shadow<br>to his own discovery""",
+    'filebox_title': """Case file""",
+    'filebox': [
+        ('1813', 'laboratory assistant at the Royal Institution · 25 shillings a week'),
+        ('1821', 'electromagnetic rotation discovered · dispute over priority'),
+        ('1823', 'chlorine liquefied · Davy claims a share of the credit'),
+        ('30 May 1823', 'Davy&rsquo;s rebuke · the demand to withdraw the certificate'),
+        ('8 Jan 1824', 'Royal Society ballot · 1 black ball'),
+        ('15 Jan 1824', 'admitted · Davy shakes his hand'),
+        ('29 Aug 1831', 'electromagnetic induction discovered'),
+    ],
+    'lead_html': """<span class="hl">On 8 January 1824 a single black ball went into the ballot box of the Royal Society in London.</span> The candidate was Michael Faraday, a 32-year-old laboratory assistant. The man who opposed him in public was Humphry Davy, his teacher until a few months before. Davy was not in the president's chair on the day of the ballot. It is still not known whose the single black ball was.""",
+    'article_html': """<h2><span class="num">01</span>The bookbinder's notebook</h2>
+    <p>Michael Faraday was born in London to a poor blacksmith. At 14 he was apprenticed to a bookbinder and bound books for 7 years. Some of them were scientific books. He read what was in them and wrote his own thoughts in the margins.</p>
+    <p>In 1812, through a regular customer, he heard 4 lectures by Humphry Davy. He wrote them up into a notebook of 300 pages, bound it and sent it to him. Davy replied, and on 1 March the next year hired him as a laboratory assistant at the Royal Institution, at 25 shillings a week.</p>
+    <p>That autumn Faraday went with Davy on his tour of Europe as secretary and laboratory assistant, and spent 18 months going round the laboratories of Europe. The assistant's work was sometimes dangerous: handling an unstable compound called nitrogen chloride, both men were injured in an explosion.</p>
+
+    <h2><span class="num">02</span>The discovery of 1821, the experiment of 1823</h2>
+    <p>In 1821 Faraday discovered that a wire carrying a current rotates around a magnet. It was the principle of the electric motor. The discovery brought an argument: it was said that the chemist William Hyde Wollaston had suggested the possibility first.</p>
+    <p>In 1823, while carrying out an experiment Davy proposed, Faraday succeeded in liquefying chlorine. He sealed chlorine hydrate in a glass tube and heated it; the tube filled with yellow gas and an oily liquid formed inside. Breaking off the end of the tube set off an explosion, but he had confirmed that the liquid was chlorine. It was the first liquefaction of a gas.</p>
+    <p>Davy asked for a share of the credit, since the experiment had been his proposal. Faraday did not agree. Their relationship changed from that point.</p>
+
+    <h2><span class="num">03</span>The teacher's rebuke</h2>
+    <p>On 30 May 1823 Faraday wrote in his notebook: &ldquo;Sir H. Davy was angry.&rdquo; At about that time his certificate of candidacy for the Royal Society was posted, with 29 proposers, among them Wollaston and Herschel.</p>
+    <p>Davy told Faraday to take his certificate down. Faraday answered: &ldquo;I did not put it up, and I cannot take it down. The people who put it up will not take it down.&rdquo; When Davy said he would take it down himself as president, Faraday replied: &ldquo;I am sure Sir H. Davy will do whatever he thinks right for the Royal Society.&rdquo;</p>
+    <p>Later biographers report that Davy walked for an hour in the courtyard of Somerset House arguing that Faraday should not become a Fellow. The teacher was not pushing his pupil forward; he was arguing his pupil's qualifications down in a courtyard.</p>
+
+    <h2><span class="num">04</span>8 January, 1 black ball</h2>
+    <p>On Thursday 8 January 1824 the Royal Society voted on new Fellows. Members put white and black balls into the box. When the votes were counted there was 1 black ball. Faraday was elected by an overwhelming majority.</p>
+    <p>The odd point is that Davy did not attend that day. Wollaston was absent too. Researchers conclude that the single vote was not theirs, because neither took part. The teacher opposed him in public and did not come to the ballot.</p>
+    <p>On 15 January Davy presided as president, and Faraday paid his subscription and signed. Davy shook his hand. Faraday wrote later that after he became a Fellow, the relationship in which they talked about science was not the same as before.</p>
+
+    <h2><span class="num">05</span>Out of his teacher's shadow</h2>
+    <p>Faraday stayed at the Royal Institution after becoming a Fellow against his teacher's opposition. On 29 August 1831, moving a magnet in and out of a coil, he found that a current appeared. It was electromagnetic induction, the principle of the generator.</p>
+    <p>In 1833 he became Fullerian Professor of Chemistry at the Royal Institution. In 1858 he was offered the presidency of the Royal Society and refused it. He refused a knighthood too. He chose to stay in the laboratory.</p>
+    <p>What he learned in 1824 was that his teacher's approval was not a condition of the experiment. Recognition came late, and the discovery came later still. But what he held in his hand in 1831 was not something his teacher had given him; it was what he had built up in the laboratory over 10 years.""",
+    'quote_text_html': """Sir H. Davy told me I must take down my certificate.<br>I replied that I had not put it up;<br>that I could not take it down.""",
+    'quote_en': '',
+    'quote_caption': """&mdash; <b>Michael Faraday</b> · from his record, about 1823""",
+    'takeaway_line_html': """His teacher's approval<br>was not <em>a condition of the experiment</em>.""",
+    'takeaway_sub': """He became a Fellow in 1824 and discovered electromagnetic induction in 1831. His teacher was not part of that discovery.""",
+    'share_title': """1824, His Teacher Told Him to Take His Certificate Down · LEADERS FILES""",
+    'share_text': """One line of courage — His teacher's approval was not a condition of the experiment. (Faraday, 1824) · LEADERS FILES""",
+    'sources_html': """<li>The Royal Society, &lsquo;Faraday, Michael: certificate of election to the Royal Society&rsquo;, EC/1823/15 (8 January 1824) — the 29 proposers. https://catalogues.royalsociety.org/CalmView/Record.aspx?id=EC%2F1823%2F15</li>
+      <li>June Z. Fullmer &amp; Melvyn C. Usselman, &lsquo;Faraday&rsquo;s Election to the Royal Society: A Reputation in Jeopardy&rsquo;, Bulletin for the History of Chemistry 11 (1991) — the ballot of 8 January 1824, the 1 black ball, the absence of Davy and Wollaston, admission on 15 January, the exchange about the certificate. https://www.ideals.illinois.edu/items/133049/bitstreams/440852/data.pdf</li>
+      <li>Encyclopedia.com, &lsquo;Humphry Davy&rsquo; (Complete Dictionary of Scientific Biography) — the rotation of 1821 and the Wollaston dispute, the chlorine of 1823 and the credit dispute, the courtyard at Somerset House. https://www.encyclopedia.com/people/history/historians-miscellaneous-biographies/humphry-davy</li>
+      <li>Frank A. J. L. James, &lsquo;Time, Tide and Michael Faraday&rsquo;, History Today 41-9 (1991) — the liquefaction of chlorine in 1823, Davy's claim, his intervention in the Royal Society election. https://www.historytoday.com/archive/time-tide-and-michael-faraday</li>
+      <li>Dictionary of National Biography, &lsquo;Faraday, Michael&rsquo; (Wikisource) — the lecture notes of 1812, appointment on 1 March 1813, the chlorine experiments of 1823. https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Faraday,_Michael</li>
+      <li>Wikipedia, &lsquo;Michael Faraday&rsquo; — birth in 1791, appointment in 1813, induction in 1831, Fullerian professorship in 1833. https://en.wikipedia.org/wiki/Michael_Faraday</li>""",
+    'fine': """The exchange about the &ldquo;certificate&rdquo; comes down through Faraday's own notes and his biographers, and the exact date is placed around 30 May 1823. The story that Davy argued against him while walking in the courtyard rests on the record of the biographer Bence Jones. Researchers have not identified the owner of the single black ball; all that is confirmed is that Davy and Wollaston were absent from the ballot. The portrait is an AI-generated editorial image, not a historical photograph.""",
+    'timeline': [
+     {
+      "k": "Step 1",
+      "name": "Hired",
+      "year": "1813.03.01",
+      "sub": [
+       "A bookbinder",
+       "A 300-page notebook",
+       "25 shillings a week"
+      ],
+      "title": "The hand that bound books reaches a bench",
+      "body": "The notebook he made of Davy's lectures changed his life. He became a laboratory assistant at the Royal Institution."
+     },
+     {
+      "k": "Step 2",
+      "name": "Discovery",
+      "year": "1821 — 1823",
+      "sub": [
+       "Electromagnetic rotation",
+       "Chlorine liquefied",
+       "A dispute over credit"
+      ],
+      "title": "The teacher's experiment, the pupil's result",
+      "body": "Faraday liquefied chlorine in an experiment Davy proposed. Davy asked for a share of the credit."
+     },
+     {
+      "k": "Step 3",
+      "name": "Rebuke",
+      "year": "1823.05.30",
+      "sub": [
+       "Take it down",
+       "The proposers will decide",
+       "Opposition in the courtyard"
+      ],
+      "title": "The teacher blocks the pupil",
+      "body": "Davy told Faraday to take down his nomination, and argued against him while walking in the courtyard."
+     },
+     {
+      "k": "Step 4",
+      "name": "Ballot",
+      "year": "1824.01.08",
+      "sub": [
+       "1 black ball",
+       "Davy absent",
+       "Admitted 15 January"
+      ],
+      "title": "1 black ball",
+      "body": "There was 1 black ball. Davy was not at the ballot, and at the admission a week later he shook Faraday's hand."
+     },
+     {
+      "k": "Step 5",
+      "name": "Induction",
+      "year": "1831.08.29",
+      "sub": [
+       "Magnet and coil",
+       "A current appears",
+       "The principle of the generator"
+      ],
+      "title": "The discovery made without his teacher",
+      "body": "He discovered electromagnetic induction. The generators of today begin with that day's experiment."
+     }
+    ],
+}

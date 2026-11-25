@@ -8,6 +8,38 @@
   var $ = function (s, c) { return (c || document).querySelector(s); };
   var $$ = function (s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); };
 
+  /* ---------------- copy (Korean / English) ---------------- */
+  var IS_EN = (document.documentElement.lang || "ko").toLowerCase().indexOf("en") === 0;
+  var T = IS_EN ? {
+    copied: "Link and line copied. Paste it into KakaoTalk or a message.",
+    copyFail: "This browser does not support automatic copying.",
+    step: " steps",
+    read: "Read",
+    soon: "Soon",
+    people: " people",
+    emailReq: "Please enter your email address.",
+    emailBad: "Check the email address format. Example: name@example.com",
+    consentReq: "Please agree to the collection and use of personal data.",
+    notReady: "Subscriptions are being prepared · 1 story a day is coming soon. Your address was not sent.",
+    sending: "Sending…",
+    subscribe: "Subscribe",
+    subscribed: "You are subscribed. The first story arrives tomorrow morning."
+  } : {
+    copied: "링크와 문장을 복사했어요. 카톡에 붙여넣기 하세요.",
+    copyFail: "이 브라우저에서는 자동 복사를 지원하지 않아요.",
+    step: " 단계",
+    read: "읽기",
+    soon: "예정",
+    people: "인",
+    emailReq: "이메일 주소를 입력해 주세요.",
+    emailBad: "이메일 주소 형식을 확인해 주세요. 예: name@example.com",
+    consentReq: "개인정보 수집·이용에 동의해 주세요.",
+    notReady: "구독 기능을 준비하고 있습니다 · 곧 매일 1편씩 보내드릴게요. 입력한 주소는 전송되지 않았습니다.",
+    sending: "신청 중…",
+    subscribe: "구독하기",
+    subscribed: "구독 신청을 받았습니다. 첫 편은 내일 아침에 보내드릴게요."
+  };
+
   /* ---------------- header scroll + reading progress ---------------- */
   var hdr = $("#hdr");
   var bar = $(".progress i");
@@ -77,12 +109,12 @@
     var ok = false;
     try { ok = document.execCommand("copy"); } catch (e) { ok = false; }
     document.body.removeChild(ta);
-    showToast(ok ? "링크와 문장을 복사했어요. 카톡에 붙여넣기 하세요." : "이 브라우저에서는 자동 복사를 지원하지 않아요.");
+    showToast(ok ? T.copied : T.copyFail);
   }
   function copyText(text) {
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(text)
-        .then(function () { showToast("링크와 문장을 복사했어요. 카톡에 붙여넣기 하세요."); })
+        .then(function () { showToast(T.copied); })
         .catch(function () { copyFallback(text); });
     } else {
       copyFallback(text);
@@ -157,7 +189,7 @@
         var left = el.offsetLeft - (wrap.clientWidth - el.offsetWidth) / 2;
         if (wrap.scrollTo) wrap.scrollTo({ left: Math.max(0, left), behavior: "smooth" });
         else wrap.scrollLeft = Math.max(0, left);
-        if (hint) hint.textContent = (i + 1) + " / " + steps.length + " 단계";
+        if (hint) hint.textContent = (i + 1) + " / " + steps.length + T.step;
       }
     }
     paint();
@@ -179,10 +211,10 @@
         if (filter !== "all" && filter !== g.id) return;
         html += '<section class="group"><div class="group-head">' +
           '<svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">' + g.icon + "</svg>" +
-          "<h2>" + g.title + '</h2><span class="cnt">' + g.people.length + "인</span></div><div class=\"people\">";
+          "<h2>" + g.title + '</h2><span class="cnt">' + g.people.length + T.people + "</span></div><div class=\"people\">";
         g.people.forEach(function (p, i) {
           var name = p.href ? '<a class="nm" href="' + p.href + '">' + p.name + "</a>" : '<span class="nm">' + p.name + "</span>";
-          var badge = p.href ? '<a class="badge" href="' + p.href + '">읽기</a>' : '<span class="badge soon">예정</span>';
+          var badge = p.href ? '<a class="badge" href="' + p.href + '">' + T.read + '</a>' : '<span class="badge soon">' + T.soon + "</span>";
           html += '<div class="person"><span class="idx">' + String(i + 1).padStart(2, "0") + "</span>" +
                   "<div><div>" + name + '<span class="yr">' + p.years + "</span></div>" +
                   '<p class="hook">' + p.hook + "</p></div>" + badge + "</div>";
@@ -228,21 +260,21 @@
       form.addEventListener("submit", function (e) {
         e.preventDefault();
         var value = (input.value || "").trim();
-        if (!value) { input.focus(); say("이메일 주소를 입력해 주세요.", "err"); return; }
-        if (!EMAIL.test(value)) { input.focus(); say("이메일 주소 형식을 확인해 주세요. 예: name@example.com", "err"); return; }
-        if (consent && !consent.checked) { consent.focus(); say("개인정보 수집·이용에 동의해 주세요.", "err"); return; }
+        if (!value) { input.focus(); say(T.emailReq, "err"); return; }
+        if (!EMAIL.test(value)) { input.focus(); say(T.emailBad, "err"); return; }
+        if (consent && !consent.checked) { consent.focus(); say(T.consentReq, "err"); return; }
 
-        var resetBtn = function () { btn.disabled = false; btn.textContent = "구독하기"; };
+        var resetBtn = function () { btn.disabled = false; btn.textContent = T.subscribe; };
         var notReady = function () {
           resetBtn();
-          say("구독 기능을 준비하고 있습니다 · 곧 매일 1편씩 보내드릴게요. 입력한 주소는 전송되지 않았습니다.", "err");
+          say(T.notReady, "err");
         };
 
         if (!SUBSCRIBE_ENDPOINT) { notReady(); return; }
 
         btn.disabled = true;
-        btn.textContent = "신청 중…";
-        say("신청을 보내고 있습니다…", "");
+        btn.textContent = T.sending;
+        say(IS_EN ? "Sending your request…" : "신청을 보내고 있습니다…", "");
 
         fetch(SUBSCRIBE_ENDPOINT, {
           method: "POST",
@@ -254,7 +286,7 @@
         }).then(function () {
           resetBtn();
           form.reset();
-          say("구독 신청을 받았습니다. 첫 편은 내일 아침에 보내드릴게요.", "ok");
+          say(T.subscribed, "ok");
         }).catch(function () {
           notReady();
         });

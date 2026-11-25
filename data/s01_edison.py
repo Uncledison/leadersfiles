@@ -136,3 +136,130 @@ STORY = {
      }
     ],
 }
+
+
+STORY_EN = {
+    'alt_name': """Thomas Edison""",
+    'person': """Thomas Alva Edison""",
+    'person_short': """Edison""",
+    'title': """At 67, the Night the Laboratory Burned""",
+    'title_html': """At 67, the night<br>the laboratory burned""",
+    'eyebrow': """Edison story""",
+    'desc': """On 9 December 1914, Edison's West Orange works caught fire. 13 buildings burned and 30 years of records turned to ash. The next morning, at 67, he stood on the site again.""",
+    'card_desc': """A fire that started with 1 reel of nitrate film swallowed 13 buildings. The next morning he ordered the rebuild.""",
+    'minutes': """9 min read""",
+    'alt': """Black-and-white editorial portrait of Thomas Edison, gold light falling from the right (AI-generated)""",
+    'tl_head': """From repeated failure<br>to standing again""",
+    'filebox_title': """Case file""",
+    'filebox': [
+        ('Event', 'West Orange plant fire'),
+        ('Date', '9 December 1914, around 5:15 pm'),
+        ('Origin', 'Building 41, film inspection room · nitrocellulose'),
+        ('Scale', '13 buildings destroyed · damage of about $1,000,000'),
+        ('Insurance', 'about one third of the loss'),
+        ('Next day', 'rebuild ordered · no employees laid off'),
+    ],
+    'lead_html': """<span class="hl">At 5:15 pm on 9 December 1914, fire broke out in the film inspection room in West Orange, New Jersey.</span> Records and prototypes built up over 30 years turned to ash that night. The next morning, the 67-year-old man stood on the same ground.""",
+    'article_html': """<h2><span class="num">01</span>That night he called people in<br>to watch it burn</h2>
+    <p>The fire began in the film inspection room. At 5:15 pm on 9 December 1914, Building 41 of the West Orange complex. Nitrocellulose, then the base of motion picture film, was made from the same family of chemicals as gunpowder. When 1 reel burned, the chemical storehouse next door threw out fire in turn.</p>
+    <p>By 6:20 pm, 7 buildings were burning. By 7:40 pm, 13 were burning at once. The company's own fire brigade of 72 men and engines from neighbouring towns fought it, but an explosion at 9:30 pm threw flame 30 metres into the air. Records put the crowd that came to watch that night at 10,000 people.</p>
+    <p class="aside">The buildings were reinforced concrete. Because he believed them fireproof, he had not insured them fully. The loss came to almost $1,000,000; insurance returned about one third of it.</p>
+    <p>His son Charles was there. He was 24. He later recalled his father's face.</p>
+    <blockquote>&ldquo;Go get your mother and all her friends. They'll never see a fire like this again.&rdquo;<br>&mdash; Charles Edison, recollection, 1961</blockquote>
+    <p>When his son tried to hold him back, Edison added: &ldquo;It's all right. We've just got rid of a lot of rubbish.&rdquo; That night he told a reporter at the site: <span class="em">&ldquo;Although I am over 67 years old, I'll start all over again tomorrow.&rdquo;</span></p>
+    <p>His wife Mina Edison led firefighters into her husband's office and carried out instruments, notebooks and drawings. What could be moved before the flames reached the laboratory was moved.</p>
+
+    <h2><span class="num">02</span>How he counted failure</h2>
+    <p>Instead of counting failures, he counted <strong>the ways that did not work</strong>. A 1910 biography quotes his long-time associate Walter Mallory. After more than 9,000 experiments on a nickel-iron storage battery had produced nothing, Mallory expressed his sympathy, and Edison brushed it aside.</p>
+    <blockquote>&ldquo;Results? Why, man, I have gotten a lot of results. I know several thousand things that won't work.&rdquo;</blockquote>
+    <p>Failure was not a feeling to him but a <strong>list</strong>. The list was not erased, so the next calculation went faster. The line most often quoted online today comes from the same attitude: &ldquo;I have not failed. I've just found 10,000 ways that won't work.&rdquo; It is a later compression of the 1910 testimony, not a recorded sentence of its own; the source note below sets out what is documented.</p>
+
+    <h2><span class="num">03</span>3 things a man starting again did</h2>
+    <p><strong>1. He wrote everything down.</strong> During the fire, employees carried research material and papers out beside the flames. What was lost was the record; what made a restart possible was also the record. Memory burns; what is written can be recalculated.</p>
+    <p><strong>2. He called the loss &lsquo;cleaning up&rsquo;.</strong> Call the same event an end and the body stiffens first. Call it &lsquo;we got rid of the rubbish&rsquo; and the next task becomes visible. He was not being optimistic about the situation; he chose the language that would let him choose the next action.</p>
+    <p><strong>3. He promised the next morning and kept it.</strong> Recovery was a schedule, not a resolution. He laid off none of his employees and put 1,500 people to clearing the rubble. 3 weeks later, on New Year's Day, the plant was partly running again.</p>
+
+    <h2><span class="num">04</span>The next day, at 67</h2>
+    <p>The Edison we remember is the man who made the light bulb. But what he repeated until the end was not invention but rebuilding: the phonograph, electric light, motion pictures, the storage battery. What he built was not a single product but <strong>a factory that starts again</strong>.</p>
+    <p>One of the first telegrams to arrive after the fire came from Nikola Tesla: &ldquo;I send you my condolences on behalf of millions of your admirers. This is not a personal loss but a loss to the world.&rdquo; The two had argued for years over electric current, but that night the sentence arrived first.</p>
+    <p>When he died on 18 October 1931, 1,093 United States patents carried his name.</p>
+
+    <h2><span class="num">05</span>If your night is long</h2>
+    <p>We usually remember the moment of success. What actually changes a person is the morning after a failure. Counting what remains instead of what was lost. That one day decides the next 30 years.</p>
+    <p>Edison's laboratory stood again. The records he left still switch on lights today.</p>""",
+    'quote_text_html': """I have not failed.<br>I&rsquo;ve just found 10,000 ways<br>that won&rsquo;t work.""",
+    'quote_en': '',
+    'quote_caption': """&mdash; <b>Thomas Alva Edison</b> · widely attributed · a later compression of the 1910 testimony""",
+    'takeaway_line_html': """If yesterday turned to ash,<br>what today needs is not talent<br>but <em>showing up</em>.""",
+    'takeaway_sub': """At 67, Edison came to the site the morning after losing everything.""",
+    'sources_html': """<li>National Park Service, Thomas Edison National Historical Park — &lsquo;Extra Audio Guides&rsquo; (the fire of 9 December 1914; Charles Edison's recollection). https://www.nps.gov/edis/learn/photosmultimedia/eng-extra-3.htm</li>
+      <li>Thomas Edison Innovation Foundation, &lsquo;How Thomas Edison &amp; His Business Came Back From a Tragic Fire&rsquo; (2020) — Building 41 as the origin, 13 buildings, 10,000 onlookers, 72 firefighters, the loss, Tesla's telegram. https://www.thomasedison.org/post/how-thomas-edison-his-business-came-back-from-a-tragic-fire</li>
+      <li>Paul Hashagen, &lsquo;Fires from 100 Years Ago&rsquo;, Firehouse (December 2014) — time of ignition, Mina Edison's rescue of instruments, the &ldquo;over 67 years old&rdquo; remark. https://www.firehouse.com/operations-training/article/12011344/fires-from-100-years-ago</li>
+      <li>The New York Times, 10 December 1914 — &ldquo;Although I am over 67 years old, I&rsquo;ll start all over again tomorrow&rdquo; (confirmed through a later source that quotes the paper).</li>
+      <li>1,093 United States patents — Thomas Edison National Historical Park and Edison Innovation Foundation material.</li>""",
+    'fine': """Statements and figures were cross-checked against the sources above. The 1914 newspaper page itself was confirmed only through a later source that quotes it, and the article states in the text that the &ldquo;10,000 ways&rdquo; line is a later formulation rather than a recorded sentence. The portrait is an AI-generated editorial image, not a historical photograph.""",
+    'share_title': """At 67, the Night the Laboratory Burned · LEADERS FILES""",
+    'share_text': """One line of courage — If yesterday turned to ash, what today needs is not talent but showing up. (Edison, 1914) · LEADERS FILES""",
+    'timeline': [
+     {
+      "k": "Step 1",
+      "name": "Failure",
+      "year": "1885 — 1913",
+      "sub": [
+       "Light bulb patent suits",
+       "Business debt",
+       "Years of competition"
+      ],
+      "title": "20 years of litigation behind the invention",
+      "body": "Even after electric light reached the world, his companies carried lawsuits, competition and chronic shortages of cash. The West Orange complex had become a place that survived on manufacturing rather than invention."
+     },
+     {
+      "k": "Step 2",
+      "name": "Ignition",
+      "year": "1914.12.09 17:15",
+      "sub": [
+       "Building 41, film room",
+       "Nitrocellulose",
+       "Into the chemical store"
+      ],
+      "title": "A fire that began with 1 reel",
+      "body": "Nitrocellulose, the base of motion picture film, was made from the same family of chemicals as gunpowder. When 1 reel burned, the chemical storehouse next door threw out fire in turn."
+     },
+     {
+      "k": "Step 3",
+      "name": "Spread",
+      "year": "1914.12.09 19:40",
+      "sub": [
+       "13 buildings burning",
+       "72 in the fire brigade",
+       "10,000 come to watch"
+      ],
+      "title": "Half the complex was on fire",
+      "body": "7 buildings were burning by 6:20 pm and 13 by 7:40 pm. 30 years of notebooks and prototypes turned to ash."
+     },
+     {
+      "k": "Step 4",
+      "name": "The turning night",
+      "year": "1914.12.09, night",
+      "sub": [
+       "\"Go get your mother\"",
+       "\"We got rid of rubbish\"",
+       "The interview at 67"
+      ],
+      "title": "Changing the language of loss",
+      "body": "He told his son to bring his mother, and told a reporter he would start again in the morning. It was a night in which the same event was given another name."
+     },
+     {
+      "k": "Step 5",
+      "name": "Rebuild",
+      "year": "1914.12.10 — 1915.01.01",
+      "sub": [
+       "No one laid off",
+       "1,500 put to work",
+       "Partly running in 3 weeks"
+      ],
+      "title": "A schedule, not a resolution",
+      "body": "He ordered the rebuild from the next morning and laid off none of his employees. 3 weeks later, on New Year's Day, the plant was partly running again."
+     }
+    ],
+}

@@ -81,3 +81,129 @@ STORY = {
         {"k": "5단계", "name": "첫 비행", "year": "1903.12.17", "sub": ["10시 35분", "12초", "120피트"], "title": "12초", "body": "오빌이 12초 동안 120피트를 날았습니다. 그날 4번의 비행 끝에 윌버가 852피트를 날았습니다."},
     ],
 }
+
+
+STORY_EN = {
+    'alt_name': """the Wright brothers""",
+    'person': """the Wright brothers""",
+    'person_short': """Wright""",
+    'title': """1901, the Day He Said Man Would Not Fly in 1,000 Years""",
+    'title_html': """1901, the day he said man<br>would not fly in 1,000 years""",
+    'eyebrow': """Wright story""",
+    'desc': """In August 1901 the Wrights' glider produced one third of the lift their figures predicted. Wilbur told his brother that man would not fly in 1,000 years. Instead of giving up they built a wind tunnel in the back room of the bicycle shop.""",
+    'card_desc': """The lift was one third of the calculated value. They went back to measuring numbers, and 2 years later came 12 seconds of flight.""",
+    'minutes': """9 min read""",
+    'alt': """Black-and-white editorial portrait of the Wright brothers, gold light falling from the right (AI-generated)""",
+    'tl_head': """From a wrong calculation<br>to the first flight""",
+    'filebox_title': """Case file""",
+    'filebox': [
+        ('1901', 'glider · 22 ft span · 290 sq ft · 98 lb'),
+        ('Problem', 'lift one third of the calculation · pitching up'),
+        ('Winter 1901', 'wind tunnel in the shop back room · about 200 wing shapes tested'),
+        ('Discovery', 'Smeaton coefficient wrong · camber and aspect ratio'),
+        ('1902', 'about 1,000 glides · longest 622 ft'),
+        ('17 Dec 1903', '10:35 am · 12 seconds · 120 ft'),
+    ],
+    'lead_html': """<span class="hl">August 1901, Kill Devil Hills, North Carolina. The Wright brothers put up a glider with a 22-foot span and a weight of 98 pounds.</span> By their figures it should have flown easily. The lift it produced was one third of the calculation. The glider kept pitching up and stalling. Wilbur is reported to have told his brother: &ldquo;Not in 1,000 years will man fly.&rdquo;""",
+    'article_html': """<h2><span class="num">01</span>Summer 1901, the figures were wrong</h2>
+    <p>The Wrights built their gliders on Otto Lilienthal's tables of lift. The 1901 machine, with 290 square feet of wing and a weight of 98 pounds, was the largest yet built. It would not fly.</p>
+    <p>The brothers enlarged the wing and changed its angle and tried again. The machine sometimes reared up and stalled, and did not answer the controls. Orville wrote to his sister Katharine that it was &ldquo;in exactly the same fix as Lilienthal was before he was killed&rdquo;.</p>
+    <p>When they warped the wing to turn, the machine slid the other way and dropped to the ground. The brothers called it &lsquo;well digging&rsquo;. The longest glide that year was a little over 100 metres, the best result anyone had recorded, and the machine was still unpredictable.</p>
+
+    <h2><span class="num">02</span>The sentence before giving up</h2>
+    <p>Octave Chanute, an elder of aeronautical research, encouraged them that their results were the best yet obtained. What the brothers understood was something else: they were building machines on numbers that were wrong.</p>
+    <p>Wilbur is reported to have said to Orville: &ldquo;Not in 1,000 years will man fly.&rdquo; The remark appears in a record Orville left later. They went home not to give up but to measure the numbers themselves.</p>
+    <p class="aside">They could already have stopped. The bicycle shop was doing well and flying was a hobby for both of them. All the same, the week after they got back to Dayton they began building a wind tunnel.</p>
+
+    <h2><span class="num">03</span>The wind tunnel in the back room</h2>
+    <p>Through the autumn and winter of 1901 the brothers built a wooden box 6 feet long in the back room of the shop, with a fan at one end and a small model wing hung inside. They measured lift and drag with a balance made from bicycle spokes and hacksaw blades.</p>
+    <p>They tested about 200 wing shapes. Lilienthal's tables, they found, were largely right, but the Smeaton coefficient used to calculate lift was wrong, and that one number was throwing every calculation off by nearly a factor of 2.</p>
+    <p>They changed the wing section to a rounded leading edge thinning toward the rear, and corrected the ratio of span to chord, the aspect ratio. The 1902 machine had a span 10 feet longer than the 1901 machine and weighed 112 pounds. That autumn the brothers made about 1,000 glides, and Wilbur flew 622 feet in 26 seconds.</p>
+
+    <h2><span class="num">04</span>17 December 1903, 10:35 am</h2>
+    <p>On the morning of 17 December 1903 the wind was 22 to 27 miles an hour. The brothers waited for it to drop, and when it did not they went ahead. The starting rail was 60 feet long.</p>
+    <p>Orville lay on the lower wing and took the controls. At 10:35 the machine ran 40 feet and lifted. It flew 120 feet in 12 seconds. That day the brothers flew 4 times; on the last, Wilbur flew 852 feet in 59 seconds.</p>
+    <p>Orville wrote of that day: &ldquo;This flight lasted only 12 seconds, but it was nevertheless the first in the history of the world in which a machine carrying a man had raised itself by its own power into the air in full flight, had sailed forward without reduction of speed, and had finally landed at a point as high as that from which it started.&rdquo;</p>
+    <p>The brothers telegraphed their father in Ohio: &ldquo;Success. Four flights Thursday morning. Longest 59 seconds. Home Christmas.&rdquo; 4 days later, on 21 December, they were home.</p>
+
+    <h2><span class="num">05</span>What they measured again</h2>
+    <p>What the Wrights lost in 1901 was not a machine but confidence. To get it back they went to a desk rather than to the sky. Without the numbers measured in the wind tunnel there would have been neither the 1902 machine nor the 1903 flight.</p>
+    <p>In 1906 they took out a patent on the aeroplane. Its core was 3-axis control, handling roll, pitch and yaw together. Every aircraft and spacecraft today uses the control system settled then.</p>
+    <p>Wilbur died of typhoid in 1912 at 45. Orville died in 1948 at 76. The wooden box and the balance of bicycle spokes and hacksaw blades that they made in the winter of 1901 still exist.</p>""",
+    'quote_text_html': """This flight lasted only 12 seconds,<br>but it was the first in the history of the world<br>in which a machine carrying a man<br>raised itself by its own power into the air.""",
+    'quote_en': '',
+    'quote_caption': """&mdash; <b>Orville Wright</b> · record of the flight, 17 December 1903""",
+    'takeaway_line_html': """They did not beat the sky.<br><em>They did the arithmetic again.</em>""",
+    'takeaway_sub': """In the winter of 1901 they measured about 200 wing shapes in the back room of the shop; 2 years later came 12 seconds of flight.""",
+    'share_title': """1901, the Day He Said Man Would Not Fly in 1,000 Years · LEADERS FILES""",
+    'share_text': """One line of courage — They did not beat the sky. They did the arithmetic again. (Wright brothers, 1901) · LEADERS FILES""",
+    'sources_html': """<li>National Park Service, &lsquo;Road to First Flight&rsquo; — the 1901 glider's specifications, lift at one third of the calculation, well digging, Wilbur's &ldquo;1,000 years&rdquo; remark, the wind tunnel. https://www.nps.gov/articles/roadtofirstflight.htm</li>
+      <li>National Park Service, &lsquo;Wright Brothers&rsquo; — the trials of 1901, about 200 wing shapes in the wind tunnel, the Smeaton coefficient error, the 1902 machine and the 622-foot glide, the 4 flights of 17 December 1903. https://www.nps.gov/articles/wright-brothers.htm</li>
+      <li>National Park Service, &lsquo;1903 — The First Flight&rsquo; — 10:35 am, 12 seconds, 120 feet, a 27-mile-an-hour wind, Orville's record. https://www.nps.gov/wrbr/learn/historyculture/thefirstflight.htm</li>
+      <li>Wright Brothers Aeroplane Company, &lsquo;The Road to Kitty Hawk&rsquo; — 17 December 1903, 10:35 am, 12 seconds, 120 feet. https://www.wright-brothers.org/History_Wing/History_of_the_Airplane/Century_Before/Road_to_Kitty_Hawk/Road_to_Kitty_Hawk.htm</li>
+      <li>NASA Glenn Research Center, &lsquo;Wright Brothers Aircraft&rsquo; — the wind tunnel of winter 1901, about 200 wing shapes tested. https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/wright-brothers-aircraft/</li>
+      <li>NASA, &lsquo;The Wright Way: The Process of Invention&rsquo; — the wind tunnel and balance, the settling of 3-axis control. https://www.nasa.gov/wp-content/uploads/2009/07/143715main_Process.of_.Invention.pdf</li>""",
+    'fine': """The longest glide of 1901 is given as either 335 or 389 feet in the sources, so the text says &lsquo;a little over 100 metres&rsquo;. Wilbur's &ldquo;1,000 years&rdquo; remark rests on a record Orville gave later, dated to the summer of 1901. The telegram of 17 December records 57 seconds, while later measurement and the NPS record give 59; the text follows 59 seconds. The portrait is an AI-generated editorial image, not a historical photograph.""",
+    'timeline': [
+     {
+      "k": "Step 1",
+      "name": "Failure",
+      "year": "1901.08",
+      "sub": [
+       "290 sq ft",
+       "One third of the lift",
+       "Well digging"
+      ],
+      "title": "It would not fly as calculated",
+      "body": "The largest glider yet built produced one third of the calculated lift. Warping the wing to turn, it slid the other way."
+     },
+     {
+      "k": "Step 2",
+      "name": "Despair",
+      "year": "summer 1901",
+      "sub": [
+       "Chanute's encouragement",
+       "Wilbur's remark",
+       "Home to Dayton"
+      ],
+      "title": "Not in 1,000 years",
+      "body": "Wilbur told his brother that man would not fly in 1,000 years. The brothers went back to Dayton."
+     },
+     {
+      "k": "Step 3",
+      "name": "Measurement",
+      "year": "winter 1901",
+      "sub": [
+       "A 6-foot wind tunnel",
+       "About 200 wings",
+       "The Smeaton coefficient"
+      ],
+      "title": "Numbers instead of sky",
+      "body": "In the back room of the shop they measured about 200 wing shapes and found the one coefficient that had thrown every calculation off."
+     },
+     {
+      "k": "Step 4",
+      "name": "Gliding",
+      "year": "1902.09 — 10",
+      "sub": [
+       "About 1,000 glides",
+       "622 feet",
+       "3-axis control"
+      ],
+      "title": "A machine that could be controlled",
+      "body": "The new machine glided almost 1,000 times, the longest flight 622 feet in 26 seconds."
+     },
+     {
+      "k": "Step 5",
+      "name": "First flight",
+      "year": "1903.12.17",
+      "sub": [
+       "10:35 am",
+       "12 seconds",
+       "120 feet"
+      ],
+      "title": "12 seconds",
+      "body": "Orville flew 120 feet in 12 seconds. On the last of 4 flights that day Wilbur flew 852 feet."
+     }
+    ],
+}

@@ -40,6 +40,13 @@ button{font:inherit;color:inherit}
 .brand-en{font-family:var(--serif);font-weight:600;font-size:15px;line-height:1.1;letter-spacing:.155em;
   color:#D9B57C;text-transform:uppercase}
 .brand-kr{font-size:9.5px;letter-spacing:.19em;color:#7E7A73;margin-top:3px;font-weight:500}
+.lang{display:flex;align-items:center;gap:5px;margin-left:auto;margin-right:2px;flex:0 0 auto;
+  font-size:10.5px;letter-spacing:.08em}
+.lang-a{display:inline-flex;align-items:center;min-height:36px;padding:0 3px;color:#7E7A73;
+  font-weight:500;transition:color .2s}
+.lang-a:hover{color:#C9C5BD}
+.lang-a.current{color:var(--gold);font-weight:700}
+.lang-sep{color:#3F3D39;font-size:9px;line-height:1;letter-spacing:0}
 .menu-btn{display:flex;align-items:center;justify-content:center;width:40px;height:40px;margin-right:-8px;
   background:none;border:0;cursor:pointer;border-radius:10px;-webkit-tap-highlight-color:transparent}
 .menu-btn:active{background:rgba(255,255,255,.05)}
@@ -227,7 +234,7 @@ p{margin:0}
 .tl-item{width:92px;display:flex;flex-direction:column;align-items:center;text-align:center;padding:0;border:0;
   background:none;cursor:pointer;-webkit-tap-highlight-color:transparent}
 .tl-name{font-size:11.5px;line-height:1.4;color:#9A968E;height:30px;display:flex;align-items:flex-start;
-  justify-content:center;letter-spacing:-.01em;transition:color .25s}
+  justify-content:center;letter-spacing:-.01em;transition:color .25s;width:100%;overflow-wrap:break-word}
 .tl-dotrow{position:relative;height:28px;display:flex;align-items:center;justify-content:center;width:100%}
 .tl-dot{width:9px;height:9px;border-radius:50%;background:#383B43;border:1px solid rgba(255,255,255,.16);
   transition:width .3s,height .3s,background .3s,box-shadow .3s,border-color .3s}
@@ -235,7 +242,8 @@ p{margin:0}
 .tl-item.active .tl-dot{width:24px;height:24px;border-color:rgba(255,214,150,.95);
   background:radial-gradient(circle at 50% 42%,#FCE7C2,#E8A84C 58%,rgba(232,168,76,.5) 100%);
   box-shadow:0 0 0 5px rgba(232,168,76,.1),0 0 24px rgba(232,168,76,.55)}
-.tl-sub{margin-top:10px;padding:0 2px;font-size:9.5px;line-height:1.55;color:#75726B;transition:color .25s}
+.tl-sub{margin-top:10px;padding:0 2px;font-size:9.5px;line-height:1.55;color:#75726B;transition:color .25s;
+  width:100%;overflow-wrap:break-word}
 .tl-item.active .tl-sub{color:#BCA887}
 .tl-detail{margin:14px var(--pad) 0;padding:14px 16px 15px;border-radius:12px;
   border:1px solid rgba(232,168,76,.24);border-left:2px solid var(--gold);

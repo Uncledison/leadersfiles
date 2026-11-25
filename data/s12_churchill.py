@@ -81,3 +81,129 @@ STORY = {
         {"k": "5단계", "name": "복귀", "year": "1917 — 1940", "sub": ["군수장관", "재무장관", "1940년 수상"], "title": "25년 뒤", "body": "그는 정부로 돌아와 장관을 지냈고, 1940년 5월 10일 수상이 됐습니다."},
     ],
 }
+
+
+STORY_EN = {
+    'alt_name': """Winston Churchill""",
+    'person': """Winston Churchill""",
+    'person_short': """Churchill""",
+    'title': """1915, the Greatest Failure Under His Own Name""",
+    'title_html': """1915, the greatest failure<br>under his own name""",
+    'eyebrow': """Churchill story""",
+    'desc': """On 15 November 1915 Churchill told the House of Commons that he was giving up his ministerial office. The responsibility for the failure at Gallipoli had been attached to his name. 6 months later he was commanding a battalion in the trenches in France.""",
+    'card_desc': """From First Lord of the Admiralty to a lieutenant-colonel in the trenches. At what he called his political death he became a soldier again.""",
+    'minutes': """9 min read""",
+    'alt': """Black-and-white editorial portrait of Winston Churchill, gold light falling from the right (AI-generated)""",
+    'tl_head': """From the Admiralty<br>to the trenches""",
+    'filebox_title': """Case file""",
+    'filebox': [
+        ('May 1915', 'lost the Admiralty · Chancellor of the Duchy of Lancaster'),
+        ('14 May 1915', 'Fisher resigns · coalition government formed'),
+        ('15 Nov 1915', 'resignation statement in the Commons'),
+        ('Nov 1915', 'France · lieutenant-colonel, 6th Battalion Royal Scots Fusiliers'),
+        ('May 1916', 'returned from the front'),
+        ('July 1917', 'Minister of Munitions'),
+        ('10 May 1940', 'Prime Minister'),
+    ],
+    'lead_html': """<span class="hl">15 November 1915, the House of Commons. Winston Churchill rose and said he was giving up his ministerial office.</span> 6 months earlier he had been First Lord of the Admiralty. Tens of thousands had become casualties at the Dardanelles and Gallipoli, and the political responsibility had been attached to his name. He resigned and went to France.""",
+    'article_html': """<h2><span class="num">01</span>May, all that was left was the title</h2>
+    <p>On 14 May 1915 Admiral Sir John Fisher, the First Sea Lord, resigned, over a quarrel about the Dardanelles operation. The next day Prime Minister Asquith had to form a coalition with the Conservatives. Their condition was Churchill's post at the Admiralty.</p>
+    <p>Churchill left the Admiralty and became Chancellor of the Duchy of Lancaster, a title with no department and no power. He had been as close to the conduct of the war as anyone for 10 months, and now had no place to argue policy, he wrote later.</p>
+    <p>He could not stay in that post. In mid-November he asked the Prime Minister for permission to resign.</p>
+
+    <h2><span class="num">02</span>&ldquo;I am finished&rdquo;</h2>
+    <p>Soon after being pushed out of the Admiralty, Churchill is reported to have said: &ldquo;I am the victim of a political intrigue. I am finished.&rdquo; His wife Clementine remembered that time: &ldquo;I thought he would never get over the Dardanelles; I thought he would die of grief.&rdquo;</p>
+    <p>He wrote to the Prime Minister: &ldquo;I will take any position. The lowest is good enough. If that is not possible, any duty at the front.&rdquo; What he wanted was not honour but work.</p>
+    <p class="aside">The responsibility for Gallipoli was not his alone. The Cabinet approved the operation, Kitchener's army supplied the troops, and Asquith as Prime Minister was finally responsible. But the man who would carry the political blame was Churchill. He did not avoid it.</p>
+
+    <h2><span class="num">03</span>15 November, the Commons</h2>
+    <p>On 15 November 1915 Churchill made a personal statement in the Commons. The reasons for resigning, he said, were all in the letter to the Prime Minister and he would not explain them further. Instead he made 2 points: that no other minister had been as close to the conduct of the war as he had, and that he had an alternative in military service.</p>
+    <p>He also told the House himself that Fisher's resignation had come on 14 May, and that he had then told the Prime Minister he would give up his post. It was a way of putting the facts against himself first.</p>
+    <p>When the speech ended he left the government. He kept his seat in the Commons. And he prepared to go to France.</p>
+
+    <h2><span class="num">04</span>A lieutenant-colonel in the trenches</h2>
+    <p>In November 1915 Churchill arrived in France. He asked for a brigade, but Asquith would not allow a high command. Instead he became lieutenant-colonel of the 6th Battalion of the Royal Scots Fusiliers.</p>
+    <p>The battalion was suspicious of a failed politician arriving as its commander. He went out on night patrol himself and did not duck when shells fell. One comrade reported: &ldquo;He never took the slightest notice of shells. Nor of bullets either. He used to say: &lsquo;There is no use ducking. The bullet has gone past.&rsquo;&rdquo;</p>
+    <p>He wrote from the front: &ldquo;In this wet and cold, in these minor discomforts, I have for the first time in months felt happy and satisfied.&rdquo; In May 1916, when the battalion was merged with another, he returned to England.</p>
+
+    <h2><span class="num">05</span>10 May 1940</h2>
+    <p>In July 1917 Churchill became Minister of Munitions in Lloyd George's government, and in 1919 held the War Office and the Air Ministry together. He was Chancellor of the Exchequer, and in the 1930s, outside the government, warned of the threat from Germany. Many saw him as a man who loved war.</p>
+    <p>On 10 May 1940 he became Prime Minister. His first speech to the House began: &ldquo;I have nothing to offer but blood, toil, tears and sweat.&rdquo; The man who had said in 1915 that he was politically finished was leading the country 25 years later.</p>
+    <p>He did not erase the failure of 1915. In his memoirs he set Gallipoli down as his own failure. Because he did not try to erase it, he could write it again.""",
+    'quote_text_html': """I thought he would never get over the Dardanelles;<br>I thought he would die of grief.""",
+    'quote_en': '',
+    'quote_caption': """&mdash; <b>Clementine Churchill</b> · looking back on 1915""",
+    'takeaway_line_html': """He did not erase the failure.<br>He <em>stood up again with that name.</em>""",
+    'takeaway_sub': """He resigned on 15 November 1915 and went to the trenches in France. On 10 May 1940 he became Prime Minister.""",
+    'share_title': """1915, the Greatest Failure Under His Own Name · LEADERS FILES""",
+    'share_text': """One line of courage — He did not erase the failure. He stood up again with that name. (Churchill, 1915) · LEADERS FILES""",
+    'sources_html': """<li>Hansard, &lsquo;Mr. Churchill&rsquo;s Resignation&rsquo;, House of Commons, 15 November 1915 — the text of the resignation statement, Fisher's resignation on 14 May, the alternative of military service. https://hansard.parliament.uk/Commons/1915-11-15/debates/ec922228-ee2e-4258-aea0-9f37d5c60225/MrChurchillSResignation</li>
+      <li>Imperial War Museums, &lsquo;Churchill&rsquo;s First World War&rsquo; — the Dardanelles and Gallipoli, the loss of the Admiralty, service on the Western Front, Minister of Munitions in 1917. https://www.iwm.org.uk/history/winston-churchill/first-world-war</li>
+      <li>Churchill Archives Centre, &lsquo;Dardanelles&rsquo; — loss of the Admiralty in May 1915, the Duchy of Lancaster, resignation in November and the Western Front. https://archives.chu.cam.ac.uk/education/churchill-era/exercises/dardanelles/</li>
+      <li>America&rsquo;s National Churchill Museum, &lsquo;Winston Churchill in World War I and its Aftermath&rsquo; — &ldquo;I am the victim of a political intrigue&rdquo;, Clementine's recollection, the 6th Battalion, the letters from the front. https://www.nationalchurchillmuseum.org/churchill-in-world-war-i-and-aftermath.html</li>
+      <li>Churchill Archives Centre, &lsquo;Sir Winston Churchill: A chronology&rsquo; — the Admiralty 1911-1915, the Duchy of Lancaster May-November 1915, the Western Front 1915-16. https://archives.chu.cam.ac.uk/collections/churchill-papers/sir-winston-churchill-chronology/</li>
+      <li>History Hit, &lsquo;Why Winston Churchill Resigned From the Government in 1915&rsquo; (2017) — the Conservative demand, confirmation of the resignation of 15 November. https://www.historyhit.com/1915-winston-churchill-resigns-government/</li>""",
+    'fine': """Churchill announced his resignation in the Commons on 15 November 1915, and the Hansard record confirms it. Gallipoli casualty figures vary in range between sources, so the text gives no specific number. &ldquo;Political intrigue&rdquo; and &ldquo;I am finished&rdquo; are remarks passed on by people around him, following the record of the National Churchill Museum. The portrait is an AI-generated editorial image, not a historical photograph.""",
+    'timeline': [
+     {
+      "k": "Step 1",
+      "name": "The operation",
+      "year": "1915.02 — 05",
+      "sub": [
+       "The Dardanelles",
+       "Naval attack fails",
+       "Landings at Gallipoli"
+      ],
+      "title": "A plan stopped at sea",
+      "body": "When the naval attack alone was stopped by mines, landings followed, and the front was pinned to the coast."
+     },
+     {
+      "k": "Step 2",
+      "name": "Responsibility",
+      "year": "May 1915",
+      "sub": [
+       "Fisher resigns",
+       "Coalition",
+       "Admiralty lost"
+      ],
+      "title": "A minister with only a title",
+      "body": "At the Conservatives' demand he left the Admiralty for a post with no power."
+     },
+     {
+      "k": "Step 3",
+      "name": "Resignation",
+      "year": "1915.11.15",
+      "sub": [
+       "Statement to the Commons",
+       "Left the government",
+       "Kept his seat"
+      ],
+      "title": "Setting it down himself",
+      "body": "He announced his resignation in the Commons and put the facts against himself first."
+     },
+     {
+      "k": "Step 4",
+      "name": "Trenches",
+      "year": "1915.11 — 1916.05",
+      "sub": [
+       "6th Battalion",
+       "Night patrols",
+       "Letters from the front"
+      ],
+      "title": "At the lowest post",
+      "body": "He took a battalion rather than a brigade, and wrote that he had felt happy for the first time in months."
+     },
+     {
+      "k": "Step 5",
+      "name": "Return",
+      "year": "1917 — 1940",
+      "sub": [
+       "Munitions",
+       "Exchequer",
+       "Prime Minister, 1940"
+      ],
+      "title": "25 years later",
+      "body": "He returned to government, held office, and on 10 May 1940 became Prime Minister."
+     }
+    ],
+}

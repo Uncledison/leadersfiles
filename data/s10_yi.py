@@ -81,3 +81,129 @@ STORY = {
         {"k": "5단계", "name": "이후", "year": "1598.11", "sub": ["서해 차단", "노량", "전사"], "title": "바다를 지킨 사람", "body": "명량은 서해로 가는 길을 막았습니다. 그는 이듬해 노량 해전에서 전사했습니다."},
     ],
 }
+
+
+STORY_EN = {
+    'alt_name': """Yi Sun-sin""",
+    'person': """Yi Sun-sin""",
+    'person_short': """Yi Sun-sin""",
+    'title': """1597, the Morning 13 Ships Held Off 133""",
+    'title_html': """1597, the morning 13 ships<br>held off 133""",
+    'eyebrow': """Yi Sun-sin story""",
+    'desc': """On 16 September 1597 by the lunar calendar (26 October by the solar one) Yi Sun-sin had 13 ships at the Myeongnyang strait. The Japanese fleet coming in had 133. He broke 31 of them and held the sea.""",
+    'card_desc': """Returning from disgrace to command, he had 13 ships left. He did not step back.""",
+    'minutes': """9 min read""",
+    'alt': """Black-and-white editorial portrait of Yi Sun-sin, gold light falling from the right (AI-generated)""",
+    'tl_head': """From dismissal<br>to Myeongnyang""",
+    'filebox_title': """Case file""",
+    'filebox': [
+        ('Event', 'Battle of Myeongnyang · the second Japanese invasion of Korea'),
+        ('Date', '16 September 1597 (lunar) · 26 October (solar)'),
+        ('Joseon fleet', '13 warships · 32 scout boats'),
+        ('Japanese fleet', '133 ships'),
+        ('Result', '31 enemy ships broken · withdrawal'),
+        ('Before', 'reduced to the ranks → reappointed 22 July 1597'),
+    ],
+    'lead_html': """<span class="hl">Early on 16 September 1597 by the lunar calendar (26 October by the solar one), off the Right Naval Station in Haenam, Jeolla Province.</span> Yi Sun-sin had 13 ships. The Japanese fleet entering the Myeongnyang strait had 133. In that narrow channel, at the turn of the tide, he did not turn his ships around.""",
+    'article_html': """<h2><span class="num">01</span>From disgrace back to command</h2>
+    <p>In January 1597 the second Japanese invasion began. Early that year Yi Sun-sin was removed from the post of Naval Commander of the Three Provinces on a false charge, taken to Seoul and imprisoned. Won Gyun was appointed in his place.</p>
+    <p>Won Gyun was heavily defeated by the Japanese fleet at Chilcheonryang in July. Most of the Joseon warships burned. The court reappointed Yi Sun-sin, then serving in the ranks, as Naval Commander of the Three Provinces. It was 22 July.</p>
+    <p>He had 12 ships left, the ones Bae Seol had brought out of the defeat at Chilcheonryang. With 1 more that local people later brought him, he had 13. His men numbered little more than 120.</p>
+
+    <h2><span class="num">02</span>What 13 ships could do</h2>
+    <p>Yi Sun-sin decided to hold Myeongnyang, the channel out to the western sea. On 29 August he moved to Byeokpajin and beat off several night attacks. Fighting with Myeongnyang at his back was unfavourable, however. On 15 September he moved his base to the Right Naval Station and put the strait in front of him.</p>
+    <p>That day he gathered his officers. &ldquo;The art of war says that he who seeks death shall live, and he who seeks life shall die.&rdquo; He added: &ldquo;The saying that 1 man holding a narrow pass can daunt 1,000 is about us today.&rdquo; Any officer who broke the orders even slightly, he said, would be dealt with by military law.</p>
+    <p class="aside">He did not say that 13 ships could beat 133. He said that holding a narrow channel made the number of ships meaningless. The narrow pass and the fast tide were his force.</p>
+
+    <h2><span class="num">03</span>The morning of 16 September</h2>
+    <p>Early in the morning a scout reported that about 200 enemy ships had passed Myeongnyang and were coming toward the base. Yi Sun-sin gathered his officers again, repeated the promise of the day before, weighed anchor and went out. 133 enemy ships surrounded the Joseon fleet.</p>
+    <p>The Joseon ships formed a single line and blocked the channel. The flagship went alone into the enemy formation and poured out shot and arrows, but the other ships fell back. The ship of Kim Eok-chu, commander of the Right Naval Station, was far off.</p>
+    <p>Yi Sun-sin turned his ship toward the vessel of Kim Eung-ham, the centre squadron. As it came up, so did the ship of An Wi, the Geoje magistrate. Yi Sun-sin stood at the gunwale and called to him: &ldquo;An Wi, do you want to die under military law? Do you think you can live by running?&rdquo; An Wi drove into the enemy line.</p>
+    <p>The enemy flagship and 2 other ships closed on An Wi's vessel. Yi Sun-sin turned his own ship and went in to rescue him. 3 enemy ships went under. Then the tide turned.</p>
+
+    <h2><span class="num">04</span>31 ships</h2>
+    <p>As the ebb ran out and the current reversed, the formation of the larger Japanese fleet broke first. The Joseon ships fired jija and hyeonja cannon and loosed fire arrows. Jun-sa, a Japanese who had surrendered at Angolpo, pointed out an enemy commander in red silk. It was Kurushima Michifusa. Yi Sun-sin had him hauled up, cut off his head and hung it high.</p>
+    <p>31 enemy ships were broken. The rest turned their bows and fled. That night Yi Sun-sin moved to Dangsado and spent the night there.</p>
+    <p>On 10 November he reported to the court. He had held the channel with 13 warships and 32 scout boats, broken about 20 enemy ships with cannon, and the ships of Song Yeo-jong and Jeong Eung-du had broken 11 more. 8 heads were taken. That is how the figures he sent and the 31 of later records connect.</p>
+
+    <h2><span class="num">05</span>What 13 ships left behind</h2>
+    <p>What was stopped at Myeongnyang was not only a stretch of sea. The Japanese fleet lost the road out to the western sea, and the course of the war afterwards ran in Korea's favour. Yi Sun-sin was killed at the battle of Noryang in November the following year. To the last, he is reported to have said: &ldquo;The fight is urgent; do not announce my death.&rdquo;</p>
+    <p>His choice at Myeongnyang was a calculation: a narrow channel, a turning tide, few ships. He chose ground on which it was hard to win and fought there. 13 ships were few, but while those 13 would not step aside, 133 could not get through.</p>
+    <p>The entry for 16 September in his war diary is short. He wrote that 133 enemy ships had surrounded his vessels, that the flagship went alone into the enemy line, and that the other ships did not come out, so what would happen could not be known. And at the end he added: &ldquo;Heaven helped. Heaven helped.&rdquo;</p>""",
+    'quote_text_html': """Even if the enemy has 1,000 ships,<br>they cannot strike our ships directly.<br>Do not waver; shoot with all your strength.""",
+    'quote_en': """&ldquo;賊船雖千艘, 不敢直犯我船, 切勿動搖, 盡力射之.&rdquo;""",
+    'quote_caption': """&mdash; <b>Yi Sun-sin</b> · Nanjung Ilgi (war diary), 16 September 1597""",
+    'takeaway_line_html': """13 ships were few.<br>But those 13<br><em>would not step aside.</em>""",
+    'takeaway_sub': """On 16 September 1597 Yi Sun-sin blocked the approach of 133 ships with 13 and broke 31 of them.""",
+    'share_title': """1597, the Morning 13 Ships Held Off 133 · LEADERS FILES""",
+    'share_text': """One line of courage — 13 ships were few. But those 13 would not step aside. (Yi Sun-sin, 1597) · LEADERS FILES""",
+    'sources_html': """<li>Encyclopedia of Korean Culture (한국민족문화대백과사전), &lsquo;명량대첩&rsquo; — reappointment on 22 July 1597, 12 ships plus 1, Byeokpajin on 29 August, the Right Naval Station on 15 September, 133 ships and 31 broken on 16 September. https://encykorea.aks.ac.kr/Article/E0018250</li>
+      <li>Digital Jindo Cultural Encyclopedia (디지털진도문화대전), &lsquo;명량대첩&rsquo; — service in the ranks, 13 warships and about 120 men, the move on 15 September, 133 ships on 16 September. https://www.grandculture.net/jindo/toc/GC00500471</li>
+      <li>Yi Sun-sin, &lsquo;Nanjung Ilgi&rsquo; (난중일기), entries for 15-16 September 1597 — &ldquo;seek death and live&rdquo;, &ldquo;1 man at a narrow pass&rdquo;, &ldquo;even 1,000 enemy ships&rdquo;, 133 ships, 31 ships; checked against the serialised modern Korean translation in Kookje Shinmun. https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&amp;key=20240708.22015001841</li>
+      <li>Veritable Records of the Joseon Dynasty (조선왕조실록), Seonjo Sillok, 10 November 1597 — Yi's report of the victory at Myeongnyang (13 warships and 32 scout boats, about 20 and 11 enemy ships, 8 heads); checked through the reprint in Weekly Hankook &lsquo;명량의 진실과 오해&rsquo; (2014). https://weekly.hankooki.com/news/articleView.html?idxno=5437306</li>
+      <li>Noh Ki-uk (노기욱), &lsquo;이순신의 수군 정비와 명량해전&rsquo;, Korean Citation Index — the base on 15 September, 133 ships on 16 September, 31 sunk, 4,000 killed. https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001825222</li>
+      <li>Wikipedia (Korean), &lsquo;명량 해전&rsquo; — the dispute over the number of enemy ships in the different editions of the diary (133, about 130, a misreading of 330). https://ko.wikipedia.org/wiki/명량_해전</li>""",
+    'fine': """The battle is dated 16 September 1597 by the lunar calendar, which is 26 October by the solar one. The number of Japanese ships is 133 in Yi's own manuscript diary; later editions of his collected works, printed in the 1790s, contain a passage misread as about 330, so the text follows the manuscript. Enemy losses are given separately as the report Yi sent (about 20 plus 11) and the 31 of later records. The portrait is an AI-generated editorial image, not a historical photograph.""",
+    'timeline': [
+     {
+      "k": "Step 1",
+      "name": "Dismissed",
+      "year": "early 1597",
+      "sub": [
+       "A false charge",
+       "Taken to Seoul",
+       "Serving in the ranks"
+      ],
+      "title": "A man removed from the sea",
+      "body": "Removed from command and imprisoned, Yi Sun-sin went to the front as a common soldier."
+     },
+     {
+      "k": "Step 2",
+      "name": "Chilcheonryang",
+      "year": "1597.07",
+      "sub": [
+       "Won Gyun's defeat",
+       "Most warships lost",
+       "Reappointed 22 July"
+      ],
+      "title": "13 ships left",
+      "body": "After the Joseon fleet collapsed at Chilcheonryang the court called him back. 12 warships and 1 brought by local people remained."
+     },
+     {
+      "k": "Step 3",
+      "name": "Myeongnyang",
+      "year": "1597.09.15",
+      "sub": [
+       "Move to the Right Naval Station",
+       "Seek death and live",
+       "The logic of the narrow pass"
+      ],
+      "title": "Putting the channel in front",
+      "body": "He did not turn his back on Myeongnyang. The narrow pass and the tide were the force behind 13 ships."
+     },
+     {
+      "k": "Step 4",
+      "name": "Battle",
+      "year": "1597.09.16",
+      "sub": [
+       "133 ships enter",
+       "An Wi charges",
+       "31 enemy ships broken"
+      ],
+      "title": "13 ships that did not step back",
+      "body": "When the tide turned, the Japanese formation broke first, and the Joseon ships poured cannon shot and arrows into it."
+     },
+     {
+      "k": "Step 5",
+      "name": "After",
+      "year": "1598.11",
+      "sub": [
+       "The western sea closed",
+       "Noryang",
+       "Killed in battle"
+      ],
+      "title": "The man who held the sea",
+      "body": "Myeongnyang closed the road to the western sea. He was killed at Noryang the following year."
+     }
+    ],
+}

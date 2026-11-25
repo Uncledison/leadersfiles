@@ -78,3 +78,126 @@ STORY = {
         {"k": "5단계", "name": "대량 생산", "year": "1908 — 1914", "sub": ["모델 T", "조립 라인", "하루 5달러"], "title": "싸게 만들어 더 많이", "body": "모델 T와 조립 라인, 그리고 하루 5달러의 일당이 그의 계산을 완성했습니다."},
     ],
 }
+
+
+STORY_EN = {
+    'alt_name': """Henry Ford""",
+    'person': """Henry Ford""",
+    'person_short': """Ford""",
+    'title': """1902, He Left With His Name and His Drawings""",
+    'title_html': """1902, he left with his<br>name and his drawings""",
+    'eyebrow': """Ford story""",
+    'desc': """On 10 March 1902 Henry Ford left the company that carried his name. In his hands were $900 and the right to keep using the name. 15 months later he started again with 12 investors and $28,000.""",
+    'card_desc': """He lost 2 companies and still kept his name and his design drawings. The 3rd began with $28,000.""",
+    'minutes': """8 min read""",
+    'alt': """Black-and-white editorial portrait of Henry Ford, gold light falling from the right (AI-generated)""",
+    'tl_head': """From 2 closures<br>to the 3rd company""",
+    'filebox_title': """Case file""",
+    'filebox': [
+        ('First', 'Detroit Automobile Company · 5 Aug 1899 → dissolved January 1901'),
+        ('Second', 'Henry Ford Company · 30 Nov 1901 → he left 10 March 1902'),
+        ('Terms of exit', '$900 · the right to use his own name'),
+        ('Third', 'Ford Motor Company · incorporated 16 June 1903'),
+        ('Capital', '$28,000 · 12 shareholders · 1,000 shares'),
+        ('First volume car', 'Model T, 1908'),
+    ],
+    'lead_html': """<span class="hl">On 10 March 1902 Henry Ford walked out of the company that carried his name.</span> In his hands were $900, the right to keep using his own name, and the drawings of a large racing car. The company dropped his name and became Cadillac. 15 months later he opened again with 12 investors and $28,000.""",
+    'article_html': """<h2><span class="num">01</span>The first company, at 36</h2>
+    <p>On 5 August 1899 the Detroit Automobile Company was set up with money from William Murphy, a Detroit timber magnate. Ford was works manager on $150 a month. He had left a secure post at the Edison Illuminating Company that same month, turning down a salary of $1,900.</p>
+    <p>In January 1900 the first delivery vehicle was finished, and the demonstration on the street went well. But the shareholders wanted several models sold quickly for a profit, and Ford had never built more than 1 car at a time. The cars fell short of the quality he wanted and cost too much.</p>
+    <p>He took $75 as his last pay on 29 October 1900. The company was formally dissolved in January 1901.</p>
+
+    <h2><span class="num">02</span>The second company, in his own name</h2>
+    <p>In October 1901 Ford drove a 26-horsepower racer and won a 10-mile race. On 30 November that year Murphy and the old shareholders set up the Henry Ford Company. Ford was chief engineer and received one sixth of the stock, valued at $100,000.</p>
+    <p>The company's aim was a light 2-seater at about $1,000. Ford was absorbed in designing a larger 4-cylinder racer. Murphy, at the end of his patience, brought in the famous machinist Henry Leland as a consultant. On 10 March 1902 Ford left.</p>
+    <p>The settlement gave him $900, the continuing right to use his name, and the drawings of the racer he had designed. The company soon renamed itself the Cadillac Automobile Company. The second company, which had carried his name, survived without him as Cadillac.</p>
+
+    <h2><span class="num">03</span>The third was not built alone</h2>
+    <p>Ford went to Alexander Malcomson, a coal dealer. On 20 August 1902 the two signed the &lsquo;Ford and Malcomson&rsquo; agreement. Parts for the new car were ordered from the shop of the machinist brothers John and Horace Dodge. The orders came to more than $160,000.</p>
+    <p>By February 1903 the money was gone and the Dodges wanted paying. Malcomson brought in his uncle John Gray, a bank president. With Gray's name attached, local merchants and lawyers invested; the Dodges agreed to take shares instead of cash.</p>
+    <p>On 16 June 1903 the Ford Motor Company was incorporated. The capital was $28,000 in cash plus about $21,000 promised by the other investors. There were 12 shareholders and 1,000 shares: 255 each for Ford and Malcomson, 105 for Gray. Ford was not trusted to run the company, so Gray became president.</p>
+
+    <h2><span class="num">04</span>What $28,000 did</h2>
+    <p>The first car was the Model A of 1903. The company sold nearly 1,700 in its first year. The Model T appeared in October 1908 at $825, and 15,000,000 were sold over 19 years.</p>
+    <p>In 1913 at the Highland Park plant Ford developed assembly with the car drawn along the floor. Assembly time fell sharply and the price fell further. In January 1914 he raised the daily wage to $5, among the highest in the American car industry at the time.</p>
+    <p>He was fixed on making the car cheaper. A lower price meant more buyers, and more buyers meant a lower price again. That calculation was what he held on to to the end at the third company.</p>
+
+    <h2><span class="num">05</span>The company closed twice</h2>
+    <p>To avoid repeating the failure, Ford kept 2 things. The first was his name: when he left the second company, the right to use it went into the settlement. The second was the drawings: the design of the car he wanted to build stayed with him, not with the company.</p>
+    <p>He is reported to have said later: &ldquo;I will build a motor car for the great multitude.&rdquo; The line is widely quoted as a declaration of about 1908, when the Model T appeared. What actually let him build that car was not the sentence but the name and the drawings he carried out of a company that closed.""",
+    'quote_text_html': """I will build a motor car<br>for the great multitude.""",
+    'quote_en': '',
+    'quote_caption': """&mdash; <b>Henry Ford</b> · widely attributed · around the launch of the Model T, 1908""",
+    'takeaway_line_html': """The company closed twice.<br>His <em>name</em> did not close.""",
+    'takeaway_sub': """The settlement of 1902 included the right to his name, and on 16 June 1903 he started again with $28,000.""",
+    'share_title': """1902, He Left With His Name and His Drawings · LEADERS FILES""",
+    'share_text': """One line of courage — The company closed twice. His name did not close. (Ford, 1902) · LEADERS FILES""",
+    'sources_html': """<li>Henry Ford Heritage Association, &lsquo;The Birth of Ford Motor Company&rsquo; — incorporation on 5 August 1899, the $150 salary, dissolution in January 1901, the Henry Ford Company of 30 November 1901, his departure on 10 March 1902 ($900 and the right to the name), the Malcomson agreement of 20 August 1902, incorporation on 16 June 1903. https://hfha.org/the-ford-story/the-birth-of-ford-motor-company/</li>
+      <li>Ford Motor Company, &lsquo;Before Henry Ford Changed the World, He Had to Start Over — Twice&rsquo; (2026) — the 20 cars of the first company and its dissolution, the departure from the second and the change to Cadillac. https://www.fromtheroad.ford.com/us/en/articles/2026/henry-ford-three-attempts-at-business-revolution</li>
+      <li>PBS American Experience, &lsquo;The Life of Henry Ford&rsquo; — 5 August 1899, the race of 10 October 1901, 16 June 1903 with $28,000 cash and $21,000 promised. https://www.pbs.org/wgbh/americanexperience/features/henryford/</li>
+      <li>Wikipedia, &lsquo;History of the Ford Motor Company&rsquo; — the Dodge brothers' parts bill, John Gray, 12 shareholders, 1,000 shares, 255/255/105. https://en.wikipedia.org/wiki/History_of_the_Ford_Motor_Company</li>
+      <li>Wikipedia, &lsquo;Henry Ford&rsquo; — incorporation on 16 June 1903, $28,000 of capital, the Model T of 1908. https://en.wikipedia.org/wiki/Henry_Ford</li>""",
+    'fine': """The sources agree on the dissolution of the first company in January 1901 and Ford's departure from the second on 10 March 1902. The capital of the third is given as &lsquo;$28,000 cash plus about $21,000 promised&rsquo; because some accounts treat $28,000 as the whole capital; the 2 figures are kept apart here. The &ldquo;motor car for the great multitude&rdquo; line has no clear original source and is marked as widely attributed. The portrait is an AI-generated editorial image, not a historical photograph.""",
+    'timeline': [
+     {
+      "k": "Step 1",
+      "name": "First failure",
+      "year": "1899.08 — 1901.01",
+      "sub": [
+       "Detroit Automobile Co.",
+       "$150 a month",
+       "Dissolved January 1901"
+      ],
+      "title": "Cars that did not sell",
+      "body": "The shareholders wanted quick sales and Ford wanted a better car. The company closed after 18 months."
+     },
+     {
+      "k": "Step 2",
+      "name": "Second failure",
+      "year": "1901.11 — 1902.03",
+      "sub": [
+       "Henry Ford Company",
+       "Leland brought in",
+       "$900 to leave"
+      ],
+      "title": "His own name, and out in 4 months",
+      "body": "He left the company bearing his name after 4 months. The settlement recorded $900 and the right to use the name."
+     },
+     {
+      "k": "Step 3",
+      "name": "Restart",
+      "year": "1902.08 — 1903.02",
+      "sub": [
+       "Malcomson",
+       "Dodge parts",
+       "$160,000 in orders"
+      ],
+      "title": "Shares instead of cash",
+      "body": "When the Dodges demanded payment for parts, the company gave them shares rather than cash."
+     },
+     {
+      "k": "Step 4",
+      "name": "Third company",
+      "year": "1903.06.16",
+      "sub": [
+       "$28,000 capital",
+       "12 shareholders",
+       "255 shares to Ford"
+      ],
+      "title": "Small capital, large name",
+      "body": "Ford Motor Company was incorporated. He was not president, but the name of the company was his."
+     },
+     {
+      "k": "Step 5",
+      "name": "Volume",
+      "year": "1908 — 1914",
+      "sub": [
+       "Model T",
+       "Assembly line",
+       "$5 a day"
+      ],
+      "title": "Build cheaply, sell more",
+      "body": "The Model T, the assembly line and the $5 day completed his calculation."
+     }
+    ],
+}

@@ -82,3 +82,129 @@ STORY = {
         {"k": "5단계", "name": "석방", "year": "1990.02.11 — 1994", "sub": ["27년 8개월", "노벨 평화상", "대통령"], "title": "감옥 밖의 다음 일", "body": "석방 뒤 그는 협상의 자리에 섰고, 1994년 남아프리카공화국 대통령이 됐습니다."},
     ],
 }
+
+
+STORY_EN = {
+    'alt_name': """Nelson Mandela""",
+    'person': """Nelson Mandela""",
+    'person_short': """Mandela""",
+    'title': """1964, the First Day of 27 Years""",
+    'title_html': """1964,<br>the first day of 27 years""",
+    'eyebrow': """Mandela story""",
+    'desc': """On 12 June 1964 the Supreme Court in Pretoria sentenced Nelson Mandela to life imprisonment. He had stood in court prepared to be hanged. From that day began 27 years and 8 months in prison.""",
+    'card_desc': """After a statement made in expectation of death came a life sentence. He spent 27 years in prison and became president.""",
+    'minutes': """9 min read""",
+    'alt': """Black-and-white editorial portrait of Nelson Mandela, gold light falling from the right (AI-generated)""",
+    'tl_head': """From the courtroom<br>to the presidency""",
+    'filebox_title': """Case file""",
+    'filebox': [
+        ('Trial', 'the Rivonia Trial · 9 October 1963 — 12 June 1964'),
+        ('Statement', '20 April 1964 · in court'),
+        ('Verdict', '11 June 1964 · guilty'),
+        ('Sentence', '12 June 1964 · life imprisonment'),
+        ('Prison', '18 years on Robben Island · prisoner 466/64'),
+        ('Release', '11 February 1990'),
+        ('President', '10 May 1994'),
+    ],
+    'lead_html': """<span class="hl">12 June 1964, the Supreme Court in Pretoria. Nelson Mandela stood in court prepared to be hanged.</span> The sentence the judge gave was life imprisonment. That afternoon he was flown to Robben Island. Prisoner 466/64. From that day began 27 years and 8 months.""",
+    'article_html': """<h2><span class="num">01</span>5 August 1962, Howick</h2>
+    <p>From April 1961 Mandela lived underground, after the African National Congress was banned. He travelled abroad to seek support and helped set up an armed wing. He moved about without a passport.</p>
+    <p>On 5 August 1962 the police stopped his car on a road near Howick in Natal. It has also been claimed that an American intelligence service passed his movements to the South African police. On 7 November that year he was sentenced to 5 years for leaving the country and inciting a strike.</p>
+    <p>He was held in Pretoria prison and moved to Robben Island in May 1963. Within 2 weeks he was back in Pretoria, because his colleagues had been arrested at the Liliesleaf farm.</p>
+
+    <h2><span class="num">02</span>Rivonia</h2>
+    <p>In July 1963 the police raided the Liliesleaf farm outside Johannesburg, the underground headquarters of the ANC. With the colleagues arrested with him, Mandela stood in the Pretoria court on 9 October 1963. There were 11 defendants in all.</p>
+    <p>The charge was sabotage. At first 199 acts of sabotage were listed, later reduced to 193. All the defendants pleaded not guilty. The trial went on for 8 months.</p>
+    <p>Mandela and his colleagues decided to use the trial as a political stage. Rather than a lawyer's legal defence, they chose to state their political position in court themselves.</p>
+
+    <h2><span class="num">03</span>20 April, the statement</h2>
+    <p>On 20 April 1964, as the defence opened, Mandela spoke from the dock. He explained from the beginning why the ANC had had no choice but to abandon peaceful methods: repression had grown, the legal paths of protest had been closed, and sabotage had been planned so as not to injure people.</p>
+    <p>His statement ran more than 3 hours. His lawyers were anxious about the last sentence, because it could be read as inviting the death penalty. So he qualified it with &lsquo;if needs be&rsquo;.</p>
+    <p>The statement ended like this: &ldquo;I have fought against white domination, and I have fought against black domination. I have cherished the ideal of a democratic and free society in which all persons live together in harmony and with equal opportunities. It is an ideal which I hope to live for and to achieve. But if needs be, it is an ideal for which I am prepared to die.&rdquo;</p>
+
+    <h2><span class="num">04</span>12 June</h2>
+    <p>On 11 June 1964 Judge Quartus de Wet found 8 of the accused guilty of sabotage. The prosecution had not formally asked for death, but those who watched the trial believed it was being asked for implicitly.</p>
+    <p>On 12 June the defendants entered the court prepared to be hanged. The sentence was life imprisonment. That afternoon Mandela and 7 others were transferred to Robben Island. Only Dennis Goldberg, who was white, remained in Pretoria prison.</p>
+    <p class="aside">Why the judge changed the sentence from death to life has never been fully established. It has been claimed that the defence lawyer Harold Hanson persuaded him in private, but the evidence is not sufficient. All that is confirmed is the judgment and the sentence.</p>
+
+    <h2><span class="num">05</span>27 years and 8 months</h2>
+    <p>Mandela spent 18 years on Robben Island, working in a limestone quarry, with letters and visits restricted. In 1982 he was moved to Pollsmoor Prison in Cape Town, and in December 1988 to Victor Verster Prison.</p>
+    <p>On 11 February 1990 he was released after 27 years and 8 months. In 1993 he shared the Nobel Peace Prize with F. W. de Klerk, and on 10 May 1994 he became President of South Africa. He died on 5 December 2013 at 95.</p>
+    <p>What he said in court in 1964 was not a sentence meant to keep him alive. In a place where he might be killed, it was an exact written record of what he believed. That statement was read outside while he was in prison.""",
+    'quote_text_html': """I have fought against white domination,<br>and I have fought against black domination.<br>But if needs be,<br>it is an ideal for which I am prepared to die.""",
+    'quote_en': '',
+    'quote_caption': """&mdash; <b>Nelson Mandela</b> · 20 April 1964, statement from the dock""",
+    'takeaway_line_html': """To a man who was ready,<br>the sentence was <em>not an end</em>.""",
+    'takeaway_sub': """Sentenced to life, he was released 27 years and 8 months later and became president in 1994.""",
+    'share_title': """1964, the First Day of 27 Years · LEADERS FILES""",
+    'share_text': """One line of courage — To a man who was ready, the sentence was not an end. (Mandela, 1964) · LEADERS FILES""",
+    'sources_html': """<li>Nelson Mandela Foundation, &lsquo;Trials and prisons chronology&rsquo; — the 5-year sentence of 7 November 1962, the Rivonia Trial from 9 October 1963, the statement of 20 April 1964, the guilty verdict of 11 June, the life sentence and transfer to Robben Island on 12 June, prisoner 466/64. https://www.nelsonmandela.org/trials-and-prison-chronology</li>
+      <li>Nelson Mandela Foundation, &lsquo;Biography of Nelson Mandela&rsquo; — the Rivonia Trial and the life sentence of 12 June 1964. https://www.nelsonmandela.org/biography</li>
+      <li>Nelson Mandela Foundation, &lsquo;Nelson Mandela sentenced to life imprisonment 44 years ago&rsquo; (2008) — the verdict, the transfer, the full statement, Robben Island until 1982. https://www.nelsonmandela.org/news/entry/nelson-mandela-sentenced-to-life-imprisonment-44-years-ago</li>
+      <li>South African Government, &lsquo;Life and Times of Mandela&rsquo; — the 8-month Rivonia Trial and the life sentence of 12 June 1964. https://www.gov.za/mandela100/biography</li>
+      <li>SAnews, &lsquo;Biography of Nelson Mandela&rsquo; (2023) — the length of the trial, the statement, the sentence of 12 June 1964, 27 years in prison. https://www.sanews.gov.za/content/biography-nelson-mandela</li>
+      <li>Wikipedia, &lsquo;Rivonia Trial&rsquo; — the sabotage counts reduced from 199 to 193, the &lsquo;if needs be&rsquo; qualification, the release of 11 February 1990 and 27 years and 8 months. https://en.wikipedia.org/wiki/Rivonia_Trial</li>""",
+    'fine': """The length of the statement is given as 3 hours in some sources and more than 4 in others, so the text says &lsquo;more than 3 hours&rsquo;. The reason the judge chose life instead of death is not established by the official record and is left as an inference. The time served is 27 years and 8 months up to his release, of which 18 years were on Robben Island. The portrait is an AI-generated editorial image, not a historical photograph.""",
+    'timeline': [
+     {
+      "k": "Step 1",
+      "name": "Arrest",
+      "year": "1962.08.05",
+      "sub": [
+       "Howick",
+       "Leaving the country, incitement",
+       "5 years"
+      ],
+      "title": "The end of life underground",
+      "body": "He was arrested while travelling without a passport, and on 7 November 1962 was sentenced to 5 years."
+     },
+     {
+      "k": "Step 2",
+      "name": "Rivonia",
+      "year": "1963.10.09",
+      "sub": [
+       "11 defendants",
+       "199 acts of sabotage",
+       "An 8-month trial"
+      ],
+      "title": "The courtroom as a stage",
+      "body": "Charged with sabotage with his colleagues, he chose to use the trial as a place for political statement."
+     },
+     {
+      "k": "Step 3",
+      "name": "Statement",
+      "year": "1964.04.20",
+      "sub": [
+       "More than 3 hours",
+       "White domination, black domination",
+       "&lsquo;if needs be&rsquo;"
+      ],
+      "title": "Prepared to die",
+      "body": "He set out his political beliefs from beginning to end, and said that if necessary he was prepared to die for them."
+     },
+     {
+      "k": "Step 4",
+      "name": "Sentence",
+      "year": "1964.06.12",
+      "sub": [
+       "Life imprisonment",
+       "Robben Island",
+       "466/64"
+      ],
+      "title": "The first day of 27 years",
+      "body": "He was given life instead of death, and was transferred to Robben Island that day."
+     },
+     {
+      "k": "Step 5",
+      "name": "Release",
+      "year": "1990.02.11 — 1994",
+      "sub": [
+       "27 years and 8 months",
+       "Nobel Peace Prize",
+       "President"
+      ],
+      "title": "The next work outside the prison",
+      "body": "After his release he sat at the negotiating table, and in 1994 became President of South Africa."
+     }
+    ],
+}
