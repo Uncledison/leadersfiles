@@ -2,8 +2,8 @@
 
 실패를 넘은 사람들의 1차 기록 아카이브. 위대한 사람들의 성공담이 아니라, 가장 아팠던 하루를 날짜와 숫자, 그날 남긴 말로 기록하는 정적 매거진입니다.
 
-- 라이브: https://readersfiles.pages.dev
-- 저장소: https://github.com/oraclekidz/readersfiles
+- 라이브: https://leaders.uncledison.com
+- 저장소: https://github.com/Uncledison/leadersfiles
 
 ## 구조
 
@@ -76,10 +76,10 @@ python3 -m http.server 8080 --directory .
 
 ## 배포
 
-Cloudflare Pages 또는 정적 호스팅에 저장소를 연결하고, 빌드 명령 없이 출력 디렉터리를 저장소 루트로 지정합니다. GitHub Pages로 배포할 경우 프로젝트 경로(`/readersfiles/`)에서도 동작하도록 모든 내부 링크는 상대 경로입니다. 다만 `canonical`, `og:url`, `sitemap.xml`은 `https://readersfiles.pages.dev` 기준이므로, 실제 도메인이 다르면 아래처럼 바꿉니다.
+Cloudflare Pages 또는 정적 호스팅에 저장소를 연결하고, 빌드 명령 없이 출력 디렉터리를 저장소 루트로 지정합니다. GitHub Pages로 배포할 경우 프로젝트 경로(`/leadersfiles/`)에서도 동작하도록 모든 내부 링크는 상대 경로입니다. 다만 `canonical`, `og:url`, `sitemap.xml`은 `https://leaders.uncledison.com` 기준이므로, 실제 도메인이 다르면 아래처럼 바꿉니다.
 
 ```bash
-grep -rl 'https://readersfiles.pages.dev' --include='*.html' --include='*.xml' . | xargs sed -i 's#https://readersfiles.pages.dev#https://실제도메인#g'
+grep -rl 'https://leaders.uncledison.com' --include='*.html' --include='*.xml' . | xargs sed -i 's#https://leaders.uncledison.com#https://실제도메인#g'
 ```
 
 ## 이메일 구독

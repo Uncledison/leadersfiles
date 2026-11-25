@@ -92,7 +92,7 @@ STORY_EN = {
     'title': """At 37, the Year the Banks Closed""",
     'title_html': """At 37,<br>the year the banks closed""",
     'eyebrow': """Carnegie story""",
-    'desc': """On 18 September 1873 Jay Cooke &amp; Company, one of the largest banks in the United States, failed. At Braddock's Field in Pennsylvania the foundations of a new steel works were half up. Carnegie, 37, did not stop the work.""",
+    'desc': """On 18 September 1873 Jay Cooke & Company, one of the largest banks in the United States, failed. At Braddock's Field in Pennsylvania the foundations of a new steel works were half up. Carnegie, 37, did not stop the work.""",
     'card_desc': """When the panic came his partners could not pay their share. He took their shares and kept building.""",
     'minutes': """9 min read""",
     'alt': """Black-and-white editorial portrait of Andrew Carnegie, gold light falling from the right (AI-generated)""",

@@ -189,7 +189,7 @@ STORY_EN = {
     <p>When Roentgen announced X-rays that December, Tesla sent him the &lsquo;shadow photographs&rsquo; he had salvaged from the fire. Before the fire he had been photographing with a Crookes tube, and did not then understand why a portrait of Mark Twain came out mottled. Later he learned that it was the metal shadow of a camera screw. Lost apparatus could be rebuilt. The lost records came back only in part.</p>
 
   <figure class="quote">
-    <img class="bulb" src="../assets/img/bulb.webp" alt="" aria-hidden="true" width="1000" height="800" loading="lazy" decoding="async">
+    <img class="bulb" src="../../assets/img/bulb.webp" alt="" aria-hidden="true" width="1000" height="800" loading="lazy" decoding="async">
     <div class="qm">&ldquo;</div>
     <blockquote>The work of half my lifetime<br>swept away by a fire<br>of 1 to 2 hours.<br>Everything is gone. I must begin over again.</blockquote>
     <figcaption>&mdash; <b>Nikola Tesla</b> · newspaper report of 14 March 1895</figcaption>

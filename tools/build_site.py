@@ -26,7 +26,7 @@ except ImportError:  # pragma: no cover
 TOOLS = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(TOOLS)
 DATA = os.path.join(ROOT, "data")
-SITE = "https://readersfiles.pages.dev"
+SITE = "https://leaders.uncledison.com"
 STORY_TPL = open(os.path.join(TOOLS, "story_template.html"), encoding="utf-8").read()
 INDEX_TPL = open(os.path.join(TOOLS, "index_template.html"), encoding="utf-8").read()
 LEADERS_TPL = open(os.path.join(TOOLS, "leaders_template.html"), encoding="utf-8").read()
@@ -499,7 +499,7 @@ def en_story_page(st, published):
     tl_head = st.get("tl_head") or "From the failure<br>to standing again"
     tokens = {
         "HREFLANG": hreflang("/stories/%s.html" % st["slug"], "/en/stories/%s.html" % st["slug"]),
-        "LANG_TOGGLE": lang_toggle("../../stories/%s.html" % st["slug"], "stories/%s.html" % st["slug"],
+        "LANG_TOGGLE": lang_toggle("../../stories/%s.html" % st["slug"], "%s.html" % st["slug"],
                                    "en", "Language"),
         "TITLE": e(st["title"]),
         "DESC": e(st["desc"]),

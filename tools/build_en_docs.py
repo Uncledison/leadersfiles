@@ -11,12 +11,13 @@ Korean copy so the two languages stay in step.
 import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITE = "https://readersfiles.pages.dev"
+SITE = "https://leaders.uncledison.com"
 
 STORIES = [
     ("edison-1914", "Edison · 1914", "At 67, the night the laboratory burned"),
     ("lincoln-1858", "Lincoln · 1858", "He won the votes and lost the seat"),
     ("tesla-1895", "Tesla · 1895", "The dawn the laboratory became ash"),
+    ("carnegie-1873", "Carnegie · 1873", "At 37, the Year the Banks Closed"),
 ]
 
 HEAD = """<!DOCTYPE html>
