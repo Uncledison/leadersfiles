@@ -54,6 +54,7 @@ python3 tools/build_site.py --check-numbers   # 한글 수사(개수·나이) �
 - 빌더는 `publish_date <= 오늘(KST)`인 원고만 `stories/<slug>.html`와 `en/stories/<slug>.html`로 **동시에** 만들고, 미래 원고의 HTML은 만들지 않으며 이미 있던 파일은 양쪽에서 지웁니다. 홈·라인업·사이트맵도 발행분만 반영합니다. 미발행 원고의 slug는 영문 라인업 클라이언트 데이터에도 싣지 않습니다.
 - 나이·연도·횟수·개수는 모두 아라비아 숫자로 적습니다. 빌더가 한국어 원고의 한글 수사를 검사해 1건이라도 있으면 실패합니다.
 - `.github/workflows/publish-daily.yml`이 매일 KST 09:00에 빌드하고 변경분을 `main`에 커밋·푸시합니다. Cloudflare Pages는 `main` 푸시로 자동 배포됩니다.
+- 이 워크플로 파일은 Pickle GitHub App에 `workflows` 권한이 없어 명령줄 푸시로는 올릴 수 없습니다(거부됨). GitHub 웹(`Add file → Create new file`에서 `.github/workflows/publish-daily.yml`)으로 한 번 올리면 그다음부터는 Actions가 알아서 돕니다. 같은 내용의 사본은 `leadersfiles-workflow/publish-daily.yml`(워크스페이스)에도 두었습니다.
 - `data/`, `tools/`는 공개되면 안 되므로 `functions/_middleware.js`가 `/data/*`, `/tools/*`, `*.py`, `README.md` 요청을 404로 돌려보냅니다. (`.assetsignore`는 Cloudflare Workers 정적 자산용이며 Pages에서는 적용되지 않습니다.)
 
 ## 영문판(/en/)
