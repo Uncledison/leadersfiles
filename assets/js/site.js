@@ -239,7 +239,7 @@
   /* Set this to "/api/subscribe" once the mailing backend is live.
      While it is empty, the form validates and shows the "준비 중" notice
      without sending a request, so no failed request appears in the console. */
-  var SUBSCRIBE_ENDPOINT = "";
+  var SUBSCRIBE_ENDPOINT = "/api/subscribe";
   (function () {
     var forms = $$("form.sub-form");
     if (!forms.length) return;
