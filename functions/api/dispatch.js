@@ -49,7 +49,35 @@ async function handle(context) {
     return json({ ok: false, error: "unauthorized" }, 401);
   }
   if (!env.SUBSCRIBERS_KV) return json({ ok: false, error: "kv_not_bound" }, 503);
-  if (!env.BREVO_API_KEY) return json({ ok: false, error: "brevo_api_key_missing" }, 503);
+
+  // 운영용: ?list=1 (구독자 상태 요약) / ?purge=email (레코드 삭제). 같은 시크릿으로만 접근한다.
+  const params = new URL(request.url).searchParams;
+  if (!env.BREVO_API_KEY && !params.get("list") && !params.get("purge")) {
+    return json({ ok: false, error: "brevo_api_key_missing" }, 503);
+  }
+  if (params.get("purge")) {
+    const target = String(params.get("purge")).trim().toLowerCase();
+    if (!target) return json({ ok: false, error: "purge_requires_email" }, 400);
+    await env.SUBSCRIBERS_KV.delete(`sub:${target}`);
+    return json({ ok: true, purged: target });
+  }
+  if (params.get("list")) {
+    const names = await listAll(env.SUBSCRIBERS_KV);
+    const rows = [];
+    for (const name of names) {
+      const rec = await env.SUBSCRIBERS_KV.get(name, "json");
+      if (!rec) continue;
+      rows.push({
+        email: rec.email,
+        lang: rec.lang || "ko",
+        nextIndex: rec.nextIndex || 1,
+        lastSentDate: rec.lastSentDate || null,
+        active: !(rec.unsubscribed || rec.active === false),
+        subscribedAt: rec.subscribedAt || null,
+      });
+    }
+    return json({ ok: true, todayKST: todayKST(), count: rows.length, subscribers: rows });
+  }
 
   const totalStories = STORIES.length;
   if (totalStories === 0) return json({ ok: true, today, sent: 0, note: "no_published_story" });
