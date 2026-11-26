@@ -21,7 +21,7 @@ export const STORIES = [
     "불은 필름 검사실에서 시작됐다. 1914년 12월 9일 오후 5시 15분, 웨스트오렌지 단지의 41동. 당시 영화 필름의 원료인 질산셀룰로이드는 화약의 주원료와 같은 성분이었다. 필름 1통이 타오르자, 옆 건물의 화학물질 창고가 잇달아 불을 뿜었다.",
     "오후 6시 20분에는 7동이, 7시 40분에는 13동이 동시에 타고 있었다. 회사 자체 소방대 72명과 인근 도시의 소방차가 붙었지만, 밤 9시 30분의 폭발로 불꽃이 30미터 높이까지 솟구쳤다. 그날 밤 불을 보러 모인 사람은 10,000명에 이르렀다고 기록된다."
    ],
-   "quote": "나는 실패한 것이 아니다.단지 작동하지 않는 방법을10,000가지 발견했을 뿐이다.",
+   "quote": "나는 실패한 것이 아니다.\n단지 작동하지 않는 방법을\n10,000가지 발견했을 뿐이다.",
    "quoteCaption": "— 토머스 앨바 에디슨 · 널리 인용되는 말 · 1910년 증언을 후대에 다듬은 표현",
    "takeaway": "에디슨은 67세에, 모든 것을 잃은 다음 날 아침에도 현장에 나왔습니다.",
    "minutes": "9분",
@@ -40,7 +40,7 @@ export const STORIES = [
     "The fire began in the film inspection room. At 5:15 pm on 9 December 1914, Building 41 of the West Orange complex. Nitrocellulose, then the base of motion picture film, was made from the same family of chemicals as gunpowder. When 1 reel burned, the chemical storehouse next door threw out fire in turn.",
     "By 6:20 pm, 7 buildings were burning. By 7:40 pm, 13 were burning at once. The company's own fire brigade of 72 men and engines from neighbouring towns fought it, but an explosion at 9:30 pm threw flame 30 metres into the air. Records put the crowd that came to watch that night at 10,000 people."
    ],
-   "quote": "I have not failed.I’ve just found 10,000 waysthat won’t work.",
+   "quote": "I have not failed.\nI’ve just found 10,000 ways\nthat won’t work.",
    "quoteCaption": "— Thomas Alva Edison · widely attributed · a later compression of the 1910 testimony",
    "takeaway": "At 67, Edison came to the site the morning after losing everything.",
    "minutes": "9 min read",
@@ -66,7 +66,7 @@ export const STORIES = [
     "1858년 6월 16일, 스프링필드의 주 의사당. 일리노이 공화당 전당대회는 링컨을 연방 상원의원 후보로 지명했다. 정당이 전당대회에서 상원 후보를 공식 지명한 것은 그때가 처음이었다. 원래 상원의원은 주의회가 뽑는 자리였기 때문이다.",
     "링컨은 수락 연설이 시작되고 5문장 만에 이 문장을 넣었다. “갈라진 집은 서지 못한다.” 이어서 말했다. “이 정부가 반은 노예, 반은 자유인 상태로 영구히 존속할 수 없다고 나는 믿는다.”"
    ],
-   "quote": "갈라진 집은서지 못한다.",
+   "quote": "갈라진 집은\n서지 못한다.",
    "quoteCaption": "— 에이브러햄 링컨 · 1858년 6월 16일, 스프링필드 수락 연설",
    "takeaway": "1858년 11월 19일, 낙선한 지 17일 뒤 헨리 애즈버리에게 보낸 편지에서.",
    "minutes": "8분",
@@ -85,7 +85,7 @@ export const STORIES = [
     "16 June 1858, the state house in Springfield. The Illinois Republican convention nominated Lincoln for the United States Senate. It was the first time a party formally nominated a Senate candidate at a convention, because the seat was normally chosen by the legislature.",
     "5 sentences into his acceptance speech, Lincoln put in this line: “A house divided against itself cannot stand.” He went on: “I believe this government cannot endure, permanently half slave and half free.”"
    ],
-   "quote": "A house dividedagainst itselfcannot stand.",
+   "quote": "A house divided\nagainst itself\ncannot stand.",
    "quoteCaption": "— Abraham Lincoln · 16 June 1858, acceptance speech at Springfield",
    "takeaway": "From his letter to Henry Asbury, 19 November 1858, 17 days after the defeat.",
    "minutes": "8 min read",
@@ -111,7 +111,7 @@ export const STORIES = [
     "불은 건물 지하에서 시작됐다. 아래층에는 증기 배관 자재를 만드는 회사 길리스 & 게오건이 있었다. 바닥과 벽은 기계유에 젖어 있었다. 야간 경비원 존 마호니는 보일러 화를 다스리러 내려갔다가 10분 만에 돌아와, 사무실 벽을 타고 오르는 불길을 발견했다. 물을 부어 봤지만 소용이 없었다.",
     "소방대가 도착했을 때 불은 계단과 엘리베이터 통로를 타고 건물 전체로 번지고 있었다. 진화에 3시간이 걸렸고, 6번가 고가 철도 구조물까지 불이 옮겨붙었다. 옆의 상자 공장으로 번지지 않은 것이 그나마 다행이었다. 오전 8시에야 진화 종료 신호가 울렸다."
    ],
-   "quote": "반평생의 작업이1~2시간의 불에 쓸려 갔습니다.모든 것이 사라졌습니다.다시 시작해야 합니다.",
+   "quote": "반평생의 작업이\n1~2시간의 불에 쓸려 갔습니다.\n모든 것이 사라졌습니다.\n다시 시작해야 합니다.",
    "quoteCaption": "— 니콜라 테슬라 · 1895년 3월 14일 신문 보도",
    "takeaway": "테슬라는 화재 6시간 뒤 새 오실레이터 설계를 다시 그리고 있었습니다.",
    "minutes": "7분",
@@ -130,7 +130,7 @@ export const STORIES = [
     "The fire started in the basement. The floor below held Gillis & Geoghegan, a firm that made steam pipe fittings. The floors and walls were soaked in machine oil. The night watchman, John Mahoney, went down to tend the boiler fire and came back 10 minutes later to find flames climbing the office wall. He threw water on them; it did nothing.",
     "By the time the fire brigade arrived, the fire was moving up the stairwell and the elevator shaft through the whole building. It took 3 hours to put out, and it reached the elevated railway structure on Sixth Avenue. It did not spread to the box factory next door. The all-out signal sounded at 8 am."
    ],
-   "quote": "The work of half my lifetimeswept away by a fireof 1 to 2 hours.Everything is gone. I must begin over again.",
+   "quote": "The work of half my lifetime\nswept away by a fire\nof 1 to 2 hours.\nEverything is gone. I must begin over again.",
    "quoteCaption": "— Nikola Tesla · newspaper report of 14 March 1895",
    "takeaway": "6 hours after the fire, Tesla was drawing a new oscillator design.",
    "minutes": "7 min read",
@@ -156,7 +156,7 @@ export const STORIES = [
     "1873년 9월 18일, 필라델피아의 은행 제이 쿠크 앤드 컴퍼니가 지급을 멈췄다. 남북전쟁 뒤 미국 철도의 자금을 대던 곳이었다. 뉴욕 증권거래소가 문을 닫았고, 그날부터 여러 해 동안 이어진 불황이 시작됐다.",
     "카네기는 그때 펜실베이니아 앨러게니 산맥의 크레슨에 있었다. 가족과 함께 여름 별장에 머물던 그는 전보를 받았다. 훗날 자서전에 이렇게 적었다. “그때 나는 내 사업 인생에서 가장 불안한 시기를 맞았다.”"
    ],
-   "quote": "그때 나는 내 사업 인생에서가장 불안한 시기를 맞았다.",
+   "quote": "그때 나는 내 사업 인생에서\n가장 불안한 시기를 맞았다.",
    "quoteCaption": "— 앤드루 카네기 · 자서전, 1873년 9월",
    "takeaway": "1874년 여름 런던에서 40만 달러를 빌렸고, 1875년 9월 공장은 첫 달에 1,200톤의 레일을 만들었습니다.",
    "minutes": "9분",
@@ -175,7 +175,7 @@ export const STORIES = [
     "On 18 September 1873 the Philadelphia bank Jay Cooke & Company stopped payment. It had financed American railways after the Civil War. The New York Stock Exchange closed, and a depression that lasted for years began that day.",
     "Carnegie was then at Cresson in the Allegheny Mountains of Pennsylvania, at the summer house with his family, when the telegram came. He later wrote in his autobiography: “I then entered upon the most anxious period of my business life.”"
    ],
-   "quote": "I then entered uponthe most anxious periodof my business life.",
+   "quote": "I then entered upon\nthe most anxious period\nof my business life.",
    "quoteCaption": "— Andrew Carnegie · autobiography, September 1873",
    "takeaway": "He borrowed $400,000 in London in the summer of 1874; in September 1875 the works made 1,200 tons of rail in its first month.",
    "minutes": "9 min read",

@@ -120,7 +120,7 @@ export function htmlFor(entry, lang, unsub) {
         <tr>
           <td style="padding:20px 22px;background:${C.card2};border-left:2px solid ${C.gold};border-radius:2px;">
             <div style="font-family:${SERIF};font-size:30px;line-height:1;color:${C.gold};opacity:.5;">&ldquo;</div>
-            <div style="margin-top:6px;font-family:${SERIF};font-size:17px;line-height:1.7;color:${C.text};">${esc(v.quote)}</div>
+            <div style="margin-top:6px;font-family:${SERIF};font-size:17px;line-height:1.7;color:${C.text};white-space:pre-line;">${esc(v.quote)}</div>
             <div style="margin-top:12px;font-family:${FONT};font-size:12px;letter-spacing:.04em;color:${C.mute};">${esc(v.quoteCaption || v.person)}</div>
           </td>
         </tr>

@@ -653,11 +653,14 @@ def en_leaders_page(published, lineup_en):
 MAIL_JS = os.path.join(ROOT, "functions", "api", "_stories.js")
 
 
-def plain_text(fragment):
+def plain_text(fragment, keep_breaks=False):
     """HTML 조각을 메일용 평문으로 바꾼다(태그 제거 + 엔티티 복원 + 공백 정리)."""
     s = re.sub(r"(?is)<(script|style|svg)\b.*?</\1\s*>", " ", fragment or "")
+    s = re.sub(r"(?i)<br\s*/?>", "\n" if keep_breaks else " ", s)
     s = re.sub(r"(?s)<[^>]+>", "", s)
     s = html.unescape(s).replace("\u00a0", " ")
+    if keep_breaks:
+        return "\n".join(re.sub(r"[ \t]+", " ", ln).strip() for ln in s.split("\n")).strip()
     return re.sub(r"\s+", " ", s).strip()
 
 
@@ -683,6 +686,10 @@ def mail_entry(st, index):
 
     def view(v, lang):
         slug = st["slug"]
+        lead = plain_text(v["lead_html"])
+        # 리드와 같은 문단은 하이라이트에서 빼고(중복), 다른 본문 문단을 앞쪽부터 2개 쓴다.
+        highlight = [p for p in mail_paragraphs(v["article_html"], 4)
+                     if not (len(p) >= 30 and p[:30] in lead)][:2]
         return {
             "person": v["person"],
             "personShort": v["person_short"],
@@ -690,9 +697,9 @@ def mail_entry(st, index):
             "eyebrow": v["eyebrow"],
             "category": CAT_NAME_EN[v["category"]] if lang == "en" else CAT_NAME[v["category"]],
             "desc": v["desc"],
-            "lead": plain_text(v["lead_html"]),
-            "highlight": mail_paragraphs(v["article_html"]),
-            "quote": plain_text(v["quote_text_html"]),
+            "lead": lead,
+            "highlight": highlight,
+            "quote": plain_text(v["quote_text_html"], keep_breaks=True),
             "quoteCaption": plain_text(v["quote_caption"]),
             "takeaway": plain_text(v["takeaway_sub"]),
             "minutes": v["minutes"],
