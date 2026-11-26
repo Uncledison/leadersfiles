@@ -188,12 +188,12 @@ LEADERS_EN = [
    {"name": "Henry Ford", "years": "1863 — 1947", "hook": "2 companies closed; the third was cars", "story": "ford-1903"},
    {"name": "Milton Hershey", "years": "1857 — 1945", "hook": "2 candy shops closed; chocolate came from the 3rd", "story": "hershey-1886"},
    {"name": "Charles Goodyear", "years": "1800 — 1860", "hook": "Debt and prison, and he would not let go of rubber", "story": "goodyear-1839"},
-   {"name": "Konosuke Matsushita", "years": "1894 — 1989", "hook": "Tuberculosis and poverty; a factory instead of a university"},
+   {"name": "Konosuke Matsushita", "years": "1894 — 1989", "hook": "Tuberculosis and poverty; a factory instead of a university", "story": "matsushita-1918"},
    {"name": "Soichiro Honda", "years": "1906 — 1991", "hook": "After the factory was gone, starting again from the engine"},
    {"name": "Chung Ju-yung", "years": "1915 — 2001", "hook": "Left home on the 70 won from his father's cow", "story": "chung-1940"},
-   {"name": "Lee Byung-chull", "years": "1910 — 1987", "hook": "A shop opened after 3 failures"},
-   {"name": "Henri Nestlé", "years": "1814 — 1890", "hook": "A doctor's infant formula that nobody bought at first"},
-   {"name": "Levi Strauss", "years": "1829 — 1902", "hook": "The young man who went for gold sold trousers"}
+   {"name": "Lee Byung-chull", "years": "1910 — 1987", "hook": "A shop opened after 3 failures", "story": "lee-1938"},
+   {"name": "Henri Nestlé", "years": "1814 — 1890", "hook": "A doctor's infant formula that nobody bought at first", "story": "nestle-1867"},
+   {"name": "Levi Strauss", "years": "1829 — 1902", "hook": "The young man who went for gold sold trousers", "story": "strauss-1873"}
   ]
  },
  {
@@ -209,8 +209,8 @@ LEADERS_EN = [
    {"name": "Louis Pasteur", "years": "1822 — 1895", "hook": "Proven in 50 dogs, never tried in a person", "story": "pasteur-1885"},
    {"name": "Charles Darwin", "years": "1809 — 1882", "hook": "A theory he could not publish for 20 years", "story": "darwin-1858"},
    {"name": "George Washington Carver", "years": "1864 — 1943", "hook": "The son of slaves who found use in the soil"},
-   {"name": "Jang Yeong-sil", "years": "1390? — 1450?", "hook": "From slave to senior court rank: the hand that made the rain gauge"},
-   {"name": "Alexander Graham Bell", "years": "1847 — 1922", "hook": "A teacher of the deaf who built the telephone"}
+   {"name": "Jang Yeong-sil", "years": "1390? — 1450?", "hook": "From slave to senior court rank: the hand that made the rain gauge", "story": "jang-1442"},
+   {"name": "Alexander Graham Bell", "years": "1847 — 1922", "hook": "A teacher of the deaf who built the telephone", "story": "bell-1876"}
   ]
  },
  {
@@ -225,7 +225,7 @@ LEADERS_EN = [
    {"name": "Mahatma Gandhi", "years": "1869 — 1948", "hook": "A lawyer thrown out of a colonial court"},
    {"name": "Helen Keller", "years": "1880 — 1968", "hook": "A child without speech learning to speak to the world"},
    {"name": "Yi Sun-sin", "years": "1545 — 1598", "hook": "Reduced to the ranks, and back on a ship", "story": "yi-1597"},
-   {"name": "Sejong", "years": "1397 — 1450", "hook": "28 letters made against opposition"},
+   {"name": "Sejong", "years": "1397 — 1450", "hook": "28 letters made against opposition", "story": "sejong-1443"},
    {"name": "Yu Gwan-sun", "years": "1902 — 1920", "hook": "The voice of a 17-year-old", "story": "yu-1919"},
    {"name": "Franklin D. Roosevelt", "years": "1882 — 1945", "hook": "Lost the use of his legs at 39 and became president"}
   ]
