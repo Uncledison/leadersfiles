@@ -125,7 +125,14 @@ async function handle(context) {
 
     const entry = STORIES[idx - 1];
     const lang = rec.lang === "en" ? "en" : "ko";
-    const token = rec.unsubscribeToken || "";
+    if (!rec.unsubscribeToken) {
+      // 예전 버전 subscribe.js 가 만든 레코드에는 토큰이 없다. 발송 전에 만들어 둔다.
+      const bytes = new Uint8Array(18);
+      crypto.getRandomValues(bytes);
+      rec.unsubscribeToken = Array.from(bytes, (b) => b.toString(16).padStart(2, "0")).join("");
+      await env.SUBSCRIBERS_KV.put(key, JSON.stringify(rec));
+    }
+    const token = rec.unsubscribeToken;
     const unsub = unsubscribeUrl(rec.email, token);
 
     const res = await sendBrevo(env, {
