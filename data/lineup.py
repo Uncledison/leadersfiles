@@ -19,7 +19,7 @@ LINEUP = [
    {
     "name": "밀턴 허쉬",
     "years": "1857 — 1945",
-    "hook": "3번 닫은 사탕가게, 4번째에 초콜릿"
+    "hook": "2번 문 닫은 사탕가게, 3번째에서 초콜릿"
    },
    {
     "name": "찰스 굿이어",
@@ -39,7 +39,7 @@ LINEUP = [
    {
     "name": "정주영",
     "years": "1915 — 2001",
-    "hook": "보리밭을 등지고 서울로, 손에는 통장뿐"
+    "hook": "소 판 70원을 품고 4번째 가출"
    },
    {
     "name": "이병철",
@@ -93,12 +93,12 @@ LINEUP = [
    {
     "name": "루이 파스퇴르",
     "years": "1822 — 1895",
-    "hook": "3번의 실패 끝에 만든 백신"
+    "hook": "개 50마리에서 멈춘 백신, 사람에게 처음"
    },
    {
     "name": "찰스 다윈",
     "years": "1809 — 1882",
-    "hook": "20년 동안 아무에게도 말하지 못한 이론"
+    "hook": "20년 동안 출판하지 못한 이론"
    },
    {
     "name": "조지 워싱턴 카버",
@@ -186,11 +186,11 @@ LEADERS_EN = [
   "people": [
    {"name": "Andrew Carnegie", "years": "1835 — 1919", "hook": "Boiler-room boy who lost his whole fortune on a first investment", "story": "carnegie-1873"},
    {"name": "Henry Ford", "years": "1863 — 1947", "hook": "2 companies closed; the third was cars", "story": "ford-1903"},
-   {"name": "Milton Hershey", "years": "1857 — 1945", "hook": "3 candy shops closed; chocolate on the 4th"},
+   {"name": "Milton Hershey", "years": "1857 — 1945", "hook": "2 candy shops closed; chocolate came from the 3rd", "story": "hershey-1886"},
    {"name": "Charles Goodyear", "years": "1800 — 1860", "hook": "Debt and prison, and he would not let go of rubber", "story": "goodyear-1839"},
    {"name": "Konosuke Matsushita", "years": "1894 — 1989", "hook": "Tuberculosis and poverty; a factory instead of a university"},
    {"name": "Soichiro Honda", "years": "1906 — 1991", "hook": "After the factory was gone, starting again from the engine"},
-   {"name": "Chung Ju-yung", "years": "1915 — 2001", "hook": "Left the barley field for Seoul with nothing but a bankbook"},
+   {"name": "Chung Ju-yung", "years": "1915 — 2001", "hook": "Left home on the 70 won from his father's cow", "story": "chung-1940"},
    {"name": "Lee Byung-chull", "years": "1910 — 1987", "hook": "A shop opened after 3 failures"},
    {"name": "Henri Nestlé", "years": "1814 — 1890", "hook": "A doctor's infant formula that nobody bought at first"},
    {"name": "Levi Strauss", "years": "1829 — 1902", "hook": "The young man who went for gold sold trousers"}
@@ -206,8 +206,8 @@ LEADERS_EN = [
    {"name": "Marie Curie", "years": "1867 — 1934", "hook": "4 years in a shed laboratory to find radium", "story": "curie-1906"},
    {"name": "The Wright brothers", "years": "1867 — 1948", "hook": "Wings built in a bicycle shop", "story": "wright-1903"},
    {"name": "Michael Faraday", "years": "1791 — 1867", "hook": "A bookbinder's notebook reaches the Royal Institution", "story": "faraday-1824"},
-   {"name": "Louis Pasteur", "years": "1822 — 1895", "hook": "A vaccine made after 3 failures"},
-   {"name": "Charles Darwin", "years": "1809 — 1882", "hook": "A theory he could not tell anyone for 20 years"},
+   {"name": "Louis Pasteur", "years": "1822 — 1895", "hook": "Proven in 50 dogs, never tried in a person", "story": "pasteur-1885"},
+   {"name": "Charles Darwin", "years": "1809 — 1882", "hook": "A theory he could not publish for 20 years", "story": "darwin-1858"},
    {"name": "George Washington Carver", "years": "1864 — 1943", "hook": "The son of slaves who found use in the soil"},
    {"name": "Jang Yeong-sil", "years": "1390? — 1450?", "hook": "From slave to senior court rank: the hand that made the rain gauge"},
    {"name": "Alexander Graham Bell", "years": "1847 — 1922", "hook": "A teacher of the deaf who built the telephone"}
@@ -221,7 +221,7 @@ LEADERS_EN = [
    {"name": "Abraham Lincoln", "years": "1809 — 1865", "hook": "1858: he won the votes and lost the seat", "story": "lincoln-1858"},
    {"name": "Winston Churchill", "years": "1874 — 1965", "hook": "The 10 years when nobody wanted him", "story": "churchill-1915"},
    {"name": "Nelson Mandela", "years": "1918 — 2013", "hook": "27 years in prison, and what he learned there", "story": "mandela-1964"},
-   {"name": "Martin Luther King", "years": "1929 — 1968", "hook": "A march that failed made the next march"},
+   {"name": "Martin Luther King", "years": "1929 — 1968", "hook": "A march that failed made the next march", "story": "king-1963"},
    {"name": "Mahatma Gandhi", "years": "1869 — 1948", "hook": "A lawyer thrown out of a colonial court"},
    {"name": "Helen Keller", "years": "1880 — 1968", "hook": "A child without speech learning to speak to the world"},
    {"name": "Yi Sun-sin", "years": "1545 — 1598", "hook": "Reduced to the ranks, and back on a ship", "story": "yi-1597"},
