@@ -170,7 +170,7 @@ LINEUP = [
    },
    {
     "name": "프랭클린 루스벨트",
-    "years": "1882 — 1944",
+    "years": "1882 — 1945",
     "hook": "39세에 다리를 잃고 대통령이 되다"
    }
   ]
@@ -227,7 +227,7 @@ LEADERS_EN = [
    {"name": "Yi Sun-sin", "years": "1545 — 1598", "hook": "Reduced to the ranks, and back on a ship", "story": "yi-1597"},
    {"name": "Sejong", "years": "1397 — 1450", "hook": "28 letters made against opposition"},
    {"name": "Yu Gwan-sun", "years": "1902 — 1920", "hook": "The voice of a 17-year-old", "story": "yu-1919"},
-   {"name": "Franklin D. Roosevelt", "years": "1882 — 1944", "hook": "Lost the use of his legs at 39 and became president"}
+   {"name": "Franklin D. Roosevelt", "years": "1882 — 1945", "hook": "Lost the use of his legs at 39 and became president"}
   ]
  }
 ]
