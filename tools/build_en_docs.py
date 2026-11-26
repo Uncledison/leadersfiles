@@ -182,14 +182,14 @@ ABOUT_BODY = """    <h2>What we write</h2>
     <p>Portrait images were produced with an image generation model. The text is written and checked by the editorial desk against the sources. No AI-generated sentence is published as fact without verification.</p>
 
     <h2>Corrections</h2>
-    <p>If you find an error, write to <a href="mailto:hello@readersfiles.com">hello@readersfiles.com</a>. Once a factual error is confirmed, the text is corrected and the date and content of the correction are recorded below the article. Purely stylistic edits are not separately marked.</p>
+    <p>If you find an error, write to <a href="mailto:hello@uncledison.com">hello@uncledison.com</a>. Once a factual error is confirmed, the text is corrected and the date and content of the correction are recorded below the article. Purely stylistic edits are not separately marked.</p>
     <p class="updated">In effect from 25 November 2026</p>
 
     <h2>Advertising and sponsorship</h2>
     <p>There is no advertising and no affiliate link on this site at present. If advertising is introduced, the advertising area will be clearly marked and kept separate from editorial content.</p>
 
     <h2>Contact</h2>
-    <p>Editorial desk · <a href="mailto:hello@readersfiles.com">hello@readersfiles.com</a></p>"""
+    <p>Editorial desk · <a href="mailto:hello@uncledison.com">hello@uncledison.com</a></p>"""
 
 PRIVACY_BODY = """    <p class="updated">In effect from 25 November 2026</p>
 
@@ -233,7 +233,7 @@ PRIVACY_BODY = """    <p class="updated">In effect from 25 November 2026</p>
       <li>To request deletion and suspension of processing</li>
       <li>To withdraw consent (cancel the subscription)</li>
     </ul>
-    <p>Send requests to <a href="mailto:hello@readersfiles.com">hello@readersfiles.com</a>. They are handled within 10 days of confirming your identity.</p>
+    <p>Send requests to <a href="mailto:hello@uncledison.com">hello@uncledison.com</a>. They are handled within 10 days of confirming your identity.</p>
 
     <h2>8. Children&rsquo;s data</h2>
     <p>Subscriptions from children under 14 are not accepted. Where we learn of one, the address is deleted immediately.</p>
@@ -246,7 +246,7 @@ PRIVACY_BODY = """    <p class="updated">In effect from 25 November 2026</p>
 
     <h2>11. Contact</h2>
     <p>Data protection · LEADERS FILES editorial desk<br>
-    <a href="mailto:hello@readersfiles.com">hello@readersfiles.com</a></p>"""
+    <a href="mailto:hello@uncledison.com">hello@uncledison.com</a></p>"""
 
 TERMS_BODY = """    <p class="updated">In effect from 25 November 2026</p>
 
@@ -289,7 +289,7 @@ TERMS_BODY = """    <p class="updated">In effect from 25 November 2026</p>
     <p>These terms are governed by the law of the Republic of Korea. Disputes fall under the jurisdiction of the Korean courts.</p>
 
     <h2>10. Contact</h2>
-    <p>LEADERS FILES editorial desk · <a href="mailto:hello@readersfiles.com">hello@readersfiles.com</a></p>"""
+    <p>LEADERS FILES editorial desk · <a href="mailto:hello@uncledison.com">hello@uncledison.com</a></p>"""
 
 PAGES = [
     dict(slug="about", page="about", title="Editorial Principles",
