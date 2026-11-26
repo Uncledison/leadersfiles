@@ -23,7 +23,9 @@
     notReady: "Subscriptions are being prepared · 1 story a day is coming soon. Your address was not sent.",
     sending: "Sending…",
     subscribe: "Subscribe",
-    subscribed: "You are subscribed. The first story arrives tomorrow morning."
+    subscribed: "You are subscribed. Issue 1 is on its way to your inbox — check your spam folder too.",
+    subscribedKnown: "This address is already subscribed. We keep sending the next issue every morning.",
+    subscribedQueued: "You are subscribed. The next issue will follow from tomorrow morning."
   } : {
     copied: "링크와 문장을 복사했어요. 카톡에 붙여넣기 하세요.",
     copyFail: "이 브라우저에서는 자동 복사를 지원하지 않아요.",
@@ -37,7 +39,9 @@
     notReady: "구독 기능을 준비하고 있습니다 · 곧 매일 1편씩 보내드릴게요. 입력한 주소는 전송되지 않았습니다.",
     sending: "신청 중…",
     subscribe: "구독하기",
-    subscribed: "구독 신청을 받았습니다. 첫 편은 내일 아침에 보내드릴게요."
+    subscribed: "구독 완료 · 1편을 메일로 보냈습니다. 스팸함도 한 번 확인해 주세요.",
+    subscribedKnown: "이미 구독 중인 주소입니다. 다음 편부터 계속 보내드리고 있어요.",
+    subscribedQueued: "구독 신청을 받았습니다. 다음 편부터 보내드릴게요."
   };
 
   /* ---------------- header scroll + reading progress ---------------- */
@@ -283,10 +287,12 @@
         }).then(function (res) {
           if (!res.ok) throw new Error("not-configured");
           return res.json().catch(function () { return {}; });
-        }).then(function () {
+        }).then(function (data) {
           resetBtn();
           form.reset();
-          say(T.subscribed, "ok");
+          if (data && data.alreadySubscribed) say(T.subscribedKnown, "ok");
+          else if (data && data.sentFirstIssue) say(T.subscribed, "ok");
+          else say(T.subscribedQueued, "ok");
         }).catch(function () {
           notReady();
         });
